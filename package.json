@@ -1,7 +1,7 @@
 {
   "name": "atomic-monokai-pro-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An adaptation of the Monokai Pro syntax-theme for Atom",
   "keywords": [
     "dark",
