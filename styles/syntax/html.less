@@ -1,0 +1,38 @@
+.syntax--source.syntax--html {
+  
+  .syntax--punctuation {
+    .syntax--definition.syntax--tag {
+      color: lighten(@mono-2, 80%) !important;
+    }
+  }
+  
+  .syntax--entity.syntax--other {
+    .syntax--attribute-name {
+      color: @mono-1 !important;
+    }
+  }
+  
+  .syntax--entity.syntax--name.syntax--tag {
+    color: @hue-1;
+  }
+  
+  .syntax--meta {
+    &.syntax--attribute-with-value {
+      color: @hue-1 !important;
+      &.syntax--class {
+        color: @hue-2 !important;
+      }
+      // 
+      // &.syntax--id {
+      //   color: @hue-6;
+      // }
+    }
+  }
+  // .syntax--string {
+  //   &.syntax--quoted {
+  //     &.syntax--double {
+  //       color: @hue-2;
+  //     }
+  //   }
+  // }
+}

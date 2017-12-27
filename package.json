@@ -1,0 +1,17 @@
+{
+  "name": "atomic-monokai-pro-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "An adaptation of the Monokai Pro syntax-theme for Atom",
+  "keywords": [
+    "dark",
+    "monokai",
+    "pro",
+    "syntax"
+  ],
+  "repository": "https://github.com/JonSn0w/atomic-monokai-pro-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

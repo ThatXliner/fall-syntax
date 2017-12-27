@@ -1,0 +1,62 @@
+.syntax--source.syntax--css {
+  // highlight properties/values if they are supported
+  .syntax--entity {
+    &.syntax--name.syntax--tag {
+      color: @hue-1;
+    }
+    &.syntax--other.syntax--attribute-name {
+      color: @hue-6;
+      &.attribute {
+        color: @hue-3;
+      }
+      &.id {
+        color: @hue-2;
+      }
+    }
+  }
+  
+  .syntax--keyword {
+    &.syntax--other.syntax--important {
+      color: @hue-1;
+    }
+  }
+  
+  .syntax--property-name,
+  .syntax--property-value {
+    color: @mono-2;
+    &.syntax--support {
+      color: @mono-1;
+    }
+  }
+  
+  .syntax--punctuation {
+    &.sytax--definition.syntax--keyword {
+      color: @hue-1;
+    }
+  }
+  
+  .syntax--support {
+    &.syntax--function {
+      color: @hue-3;
+    }
+  }
+  
+  .syntax--variable {
+    // color: @hue-3;
+    &.syntax--interpolation {
+      color: @hue-3;
+    }
+    &.syntax--other {
+      color: @hue-3;
+    }
+  }
+}
+
+.syntax--source.syntax--scss {
+  .syntax--variable {
+    color: @hue-3;
+    &.syntax--parameter {
+      color: @mono-1;
+    }
+  }
+}
