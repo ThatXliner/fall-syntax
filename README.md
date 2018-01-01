@@ -26,6 +26,6 @@
 
 This theme can be installed from within Atom or via the command: 
 ```sh
->$ apm install atom-monokai-pro-syntax 
+>$ apm install atomic-monokai-pro-syntax 
 ```
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.
