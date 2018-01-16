@@ -144,7 +144,7 @@
 
 .syntax--punctuation {
   &.syntax--definition {
-    color: darken(@mono-2, 10%);
+    color: darken(@mono-2, 5%);
     &.syntax--comment {
       color: @mono-3;
     }
@@ -158,14 +158,14 @@
       color: @mono-1;
     }
     
+    &.syntax--tag {
+      color: @mono-2;
+    }
+    
     &.syntax--heading,
     &.syntax--identity {
       color: @hue-2;
     }
-    
-    // &.syntax--keyword {
-    //   color: @hue-1;
-    // }
     
     &.syntax--bold {
       color: @hue-6;
@@ -191,6 +191,10 @@
   &.syntax--section {
     &.syntax--embedded {
       color: @hue-7;
+      &.syntax--erb {
+        // color: @mono-2;
+        color: @hue-5;
+      }
     }
 
     &.syntax--method,
