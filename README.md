@@ -33,3 +33,7 @@ $ apm install atomic-monokai-pro-syntax
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.  
 
 <br>
+
+--------
+
+[![apm](https://apm-badges.herokuapp.com/apm/language-rainmeter.svg?theme=one-dark)](https://atom.io/themes/atomic-monokai-pro-syntax)
