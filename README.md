@@ -36,4 +36,4 @@ After installation, you can activated by going to the **Settings > Themes** sect
 
 --------
 
-[![apm](https://apm-badges.herokuapp.com/apm/language-rainmeter.svg?theme=one-dark)](https://atom.io/themes/atomic-monokai-pro-syntax)
+[![apm](https://apm-badges.herokuapp.com/apm/atomic-monokai-pro-syntax.svg?theme=one-dark)](https://atom.io/themes/atomic-monokai-pro-syntax)
