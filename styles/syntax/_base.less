@@ -1,7 +1,7 @@
 // Language syntax highlighting
 
 .syntax--comment {
-  color: @mono-3;
+  color: @mono-3 !important;
   font-style: italic;
 
   .syntax--markup.syntax--link {
@@ -52,6 +52,9 @@
   &.syntax--other {
     &.syntax--special-method {
       color: @hue-2;
+      &.syntax--gemfile {
+        color: @hue-1 !important;
+      }
     }
   }
 
@@ -146,7 +149,7 @@
   &.syntax--definition {
     color: darken(@mono-2, 5%);
     &.syntax--comment {
-      color: @mono-3;
+      color: @mono-3 !important;
     }
 
     &.syntax--method-parameters,
