@@ -71,18 +71,47 @@ atom-text-editor {
         color: @syntax-text-color;
       }
     }
+    
+    .git-line-added, .git-line-modified, .git-line-removed {
+      padding-left: calc(0.5em - 3px) !important;
+    }
+    
+    .git-line-added {
+      // color: fade(mix(@syntax-color-added, #fff, 55%), 70%);
+      border-left: 4px solid @syntax-color-added !important;
+    }
+    
+    .git-line-modified {
+      // color: @syntax-color-modified;
+      border-left: 4px solid @syntax-color-modified !important;
+    }
+    
+    .git-line-removed {
+      &::before {
+        border-width: 6px;
+        margin-top: -6px;
+      }
+      &::after {
+        border-bottom: 2px dotted @syntax-color-removed;
+      }
+    }
 
     &:not(.git-diff-icon) .line-number.git-line-removed {
       &.git-line-removed::before {
-        bottom: -3px;
+        bottom: -5px;
+      }
+      &::before {
+        border-width: 6px;
+        margin-top: -6px;
       }
       &::after {
         content: "";
         position: absolute;
-        left: 0px;
+        left: 2px;
         bottom: 0px;
-        width: 25px;
-        border-bottom: 1px dotted fade(@syntax-color-removed, 50%);
+        width: 26px;
+        // border-bottom: 1px dotted fade(@syntax-color-removed, 50%);
+        border-bottom: 2px dotted fade(@syntax-color-removed, 85%);
         pointer-events: none;
       }
     }
