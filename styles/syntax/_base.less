@@ -160,7 +160,7 @@
     &.syntax--array {
       color: @mono-1;
     }
-    
+
     &.syntax--tag {
       color: @mono-2;
     }
@@ -182,7 +182,9 @@
   }
 
   &.syntax--separator {
-    &.syntax--key-value {
+    &.syntax--delimiter, 
+    &.syntax--key-value, 
+    &.syntax--inheritance {
       color: @mono-2;
     }
   }
@@ -289,7 +291,7 @@
   }
   
   &.syntax--function-call {
-    color: @hue-2;
+    // color: @hue-2;
     
     &.syntax--arguments {
       color: @mono-1;

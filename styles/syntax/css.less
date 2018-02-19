@@ -57,16 +57,10 @@
 }
 
 .syntax--source.syntax--scss {
-  .syntax--variable {
-    color: @hue-2;
-    &.syntax--parameter {
-      color: @mono-1;
+  .syntax--keyword.syntax--control {
+    &.syntax--at-rule.syntax--extend {
+      color: @hue-1 !important;
     }
-  }
-  .syntax--punctuation.syntax--definition.syntax--keyword {
-    color: @hue-1;
-    font-style: normal !important;
-    letter-spacing: 1px;
   }
   .syntax--punctuation {
     &.sytax--definition {
@@ -80,9 +74,10 @@
       }
     }
   }
-  .syntax--keyword.syntax--control {
-    &.syntax--at-rule.syntax--extend {
-      color: @hue-1 !important;
+  .syntax--variable {
+    color: @hue-2;
+    &.syntax--parameter {
+      color: @mono-1;
     }
   }
 }

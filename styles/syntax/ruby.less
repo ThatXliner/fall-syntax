@@ -1,6 +1,6 @@
 .syntax--source.syntax--ruby {
   .syntax--constant.syntax--other.syntax--symbol {
-    color: @hue-2;
+    color: @hue-5;
     &.syntax--hashkey {
       color: @hue-3;
     }
@@ -11,10 +11,24 @@
   &.syntax--embedded {
     color: @hue-1;
   }
+  
+  .syntax--entity {
+    &.syntax--other.syntax--inherited-class {
+      color: @hue-6;
+    }
+  }
+  
+  .syntax--keyword.syntax--other.syntax--special-method {
+    color: @hue-1;
+  }
+  
   .syntax--punctuation {
     &.syntax--definition {
       &.syntax--constant.syntax--hashkey {
         color: @hue-5;
+      }
+      &.syntax--separator.syntax--inheritance {
+        color: @mono-2 !important;
       }
       &.syntax--string {
         color: @mono-2;
