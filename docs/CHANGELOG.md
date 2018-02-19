@@ -1,5 +1,13 @@
-# Change Log
+# Change Log  
 <br>  
+
+## Version 1.2.2  
+
+  * Improved git-status gutter styling
+  * Minor modifications made to syntax color palette
+  * Improved syntax-highlighting for various languages
+
+-----------------------------------------------------------------------  
 
 ## Version 1.2.0  
 
