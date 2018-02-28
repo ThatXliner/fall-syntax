@@ -1,4 +1,5 @@
 .syntax--source.syntax--python {
+  
   .syntax--keyword {
     &.syntax--operator.syntax--logical.syntax--python {
       color: @hue-1;
@@ -11,6 +12,12 @@
   .syntax--punctuation {
     &.syntax--section.syntax--function.syntax--begin {
       color: @mono-1;
+    }
+  }
+  
+  .syntax--string {
+    &.syntax--quoted.syntax--double.syntax--block.syntax--sql {
+      color: @mono-3;
     }
   }
 
