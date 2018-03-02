@@ -3,6 +3,9 @@
   .syntax--entity {
     &.syntax--name.syntax--tag {
       color: @hue-1;
+      &.syntax--custom {
+        color: @mono-1;
+      }
     }
     &.syntax--other.syntax--attribute-name {
       color: @hue-6;
@@ -19,6 +22,10 @@
     &.syntax--other.syntax--important {
       color: @hue-1;
     }
+  }
+  
+  .syntax--meta {
+    color: @mono-1;
   }
   
   .syntax--property-name,
