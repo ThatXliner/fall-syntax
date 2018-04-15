@@ -1,7 +1,7 @@
 # Change Log
 <br>
 
-## Version 1.2.5
+## Version 1.2.3
 
   * Add syntax-highlighting for assembly
   * Minor modifications made to syntax color palette
