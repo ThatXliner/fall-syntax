@@ -1,6 +1,10 @@
 # Change Log
 <br>
 
+## Version 1.2.4
+  * Improved syntax-highlighting of embedded languages
+  * Updated deprecated syntax selectors
+
 ## Version 1.2.3
 
   * Add syntax-highlighting for assembly
