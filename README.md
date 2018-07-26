@@ -18,7 +18,7 @@
   <img src="https://user-images.githubusercontent.com/16360374/35130498-07363c66-fc76-11e7-99c9-9bd7844ab1be.png" alt="preview" width="820"/>
 </p>  
 
-[**Atomic Monokai Pro**](https://atom.io/themes/atomic-monokai-pro-syntax) features a modern interpretation of the popular monokai color palette. Based on the [Monokai Pro](https://www.monokai.pro/) syntax-theme for Sublime Text and VSCode, this adaptated theme brings the same great renovations to [Atom](atom.io).  
+[**Atomic Monokai Pro**](https://atom.io/themes/atomic-monokai-pro-syntax) features a modern interpretation of the popular monokai color palette. Based on the [Monokai Pro](https://www.monokai.pro/) syntax-theme for Sublime Text and VSCode, this adaptated theme brings the same great enhancements to [Atom](https://atom.io).  
 Additionally, this theme also features modifications to better emphasize crucial code, while allowing more trivial aspects of the syntax to fade into the background. In turn, allowing for easier and more effective analysis and visual-grepping.  
 
 <br>  
