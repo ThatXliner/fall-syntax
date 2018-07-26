@@ -1,0 +1,37 @@
+.syntax--text.syntax--restructuredtext {
+  
+  .syntax--entity {
+    &.syntax--name.syntax--tag {
+      color: @hue-5;
+    }
+  }
+  
+  .syntax--markup {
+    &.syntax--heading {
+      color: @hue-1;
+    }
+    &.syntax--link {
+      color: @hue-2;
+    }
+  }
+  
+  .syntax--string {
+    &.syntax--other {
+      &.syntax--link {
+        color: @hue-3;
+        &.syntax--title {
+          color: @hue-3;
+        }
+      }
+      &.syntax--uri {
+        color: @hue-2;
+      }
+    }
+  }
+  
+  .syntax--punctuation {
+    &.syntax--definition.syntax--heading {
+      color: @hue-1;
+    }
+  }
+}
