@@ -1,6 +1,7 @@
 .syntax--source.syntax--liquid {
 
   .syntax--punctuation {
+    color: @mono-2;
     &.syntax--output {
       color: @hue-1;
     }
@@ -13,8 +14,10 @@
     &.syntax--class {
       color: @hue-6;
     }
-    &.syntax--function.syntax--without-args {
-      color: @hue-1;
+    &.syntax--function {
+      &.syntax--without-args {
+        color: @mono-1;
+      }
     }
     &.syntax--variable {
       color: @hue-2;
@@ -22,8 +25,12 @@
   }
 }
 
-.syntax--source.syntax--jekyll {
-  .syntax--text.syntax--html {
+.syntax--text.syntax--html.syntax--liquid {
+  color: @mono-1;
+}
+
+.syntax--text.syntax--jekyll {
+  &.syntax--text.syntax--html {
     color: @mono-1 !important;
   }
 }
