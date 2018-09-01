@@ -1,5 +1,4 @@
 .syntax--source.syntax--css {
-  // highlight properties/values if they are supported
   .syntax--constant {
     &.syntax--other.syntax--color {
       color: @hue-2;
@@ -9,7 +8,7 @@
     &.syntax--name.syntax--tag {
       color: @hue-1;
       &.syntax--custom {
-        color: @mono-1;
+        color: @hue-1;
       }
     }
     &.syntax--other.syntax--attribute-name {
@@ -31,8 +30,10 @@
 
   .syntax--meta {
     color: @mono-1;
-    &.syntax--definition.syntax--variable.syntax--map {
-      color: lighten(@mono-2, 15%);
+    &.syntax--definition {
+      &.syntax--variable.syntax--map {
+        color: lighten(@mono-2, 15%);
+      }
     }
   }
 
@@ -54,6 +55,9 @@
       &.syntax--bracket.syntax--curly {
         color: lighten(@mono-2, 12%);
       }
+    }
+    &.syntax--terminator.syntax--rule {
+      color: @mono-2;
     }
   }
 
@@ -89,9 +93,6 @@
       }
     }
   }
-  // .syntax--support.syntax--constant.syntax--property-value {
-    // color: @hue-5;
-  // }
   .syntax--variable {
     color: @hue-2;
     &.syntax--parameter {
