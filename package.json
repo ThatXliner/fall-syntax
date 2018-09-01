@@ -4,10 +4,10 @@
   "version": "1.2.4",
   "description": "An adaptation of the Monokai Pro syntax-theme for Atom",
   "keywords": [
-    "dark",
+    "atomic",
     "monokai",
     "pro",
-    "monokai-pro",
+    "dark",
     "syntax"
   ],
   "repository": {
