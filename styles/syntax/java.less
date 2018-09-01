@@ -1,7 +1,12 @@
 .syntax--source.syntax--java {
   
-  .syntax--keyword.syntax--operator.syntax--instanceof {
-    color: @hue-3;
+  .syntax--keyword {
+    &.syntax--operator.syntax--instanceof {
+      color: @hue-3;
+    }
+    &.syntax--other.syntax--import {
+      color: @hue-1;
+    }
   }
   
   .syntax--meta {
@@ -19,6 +24,9 @@
     color: @mono-2;
     &.syntax--definition {
       color: @mono-1;
+      &.syntax--string {
+        color: @hue-4;
+      }
     }
   }
   
@@ -26,7 +34,7 @@
     &.syntax--modifier {
       color: @hue-1;
       &.syntax--import {
-        color: @hue-4;
+        color: @hue-5;
       }
     }
     &.syntax--type {
@@ -35,6 +43,7 @@
   }
   
   .syntax--variable {
+    color: @mono-1;
     &.syntax--other {
       color: @mono-1;
     }
