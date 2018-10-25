@@ -19,8 +19,13 @@
     }
   }
   
-  .syntax--meta.syntax--arguments {
-    color: @mono-1;
+  .syntax--meta {
+    &.syntax--arguments {
+      color: @mono-1;
+    }
+    .syntax--variable.syntax--other.syntax--readwrite {
+      color: @mono-1;
+    }
   }
   
   .syntax--support.syntax--variable {
@@ -29,6 +34,38 @@
       &.syntax--property {
         color: @hue-2;
       }
+    }
+  }
+  
+  .syntax--storage {
+    &.syntax--modifier {
+      color: @hue-5;
+    }
+  }
+}
+
+// JSX
+.syntax--source.syntax--jsx {
+  color: @mono-1;
+  
+  .syntax--meta {
+    &.brace {
+      color: @mono-1;
+    }
+    &.syntax--scope {
+      color: @mono-1;
+      &.syntax--inner {
+        color: @hue-4;
+      }
+    }
+    &.syntax--tag.syntax--block {
+      color: @mono-2;
+    }
+  }
+  
+  .syntax--punctuation {  
+    &.syntax--section.syntax--embedded {
+      color: @mono-2;
     }
   }
 }
