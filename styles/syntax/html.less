@@ -1,12 +1,12 @@
-.syntax--source.syntax--html {
-  .syntax--entity.syntax--other {
-    .syntax--attribute-name {
+.syntax--html {
+  
+  .syntax--entity {
+    &.syntax--name.syntax--tag {
+      color: @hue-1;
+    }
+    &.syntax--other.syntax--attribute-name {
       color: @mono-1 !important;
     }
-  }
-  
-  .syntax--entity.syntax--name.syntax--tag {
-    color: @hue-1;
   }
   
   .syntax--meta {
@@ -15,13 +15,14 @@
       &.syntax--class {
         color: @hue-2 !important;
       }
-      &.syntax--tag.syntax--sgml.syntax--doctype {
-        color: @hue-6 !important;
-      }
+    }
+    &.syntax--tag.syntax--sgml.syntax--doctype {
+      color: @hue-5;
     }
   }
 }
 
+// Jekyll
 .syntax--text.syntax--html.syntax--jekyll  {
   color: @mono-1;
 }
