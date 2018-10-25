@@ -1,22 +1,22 @@
 .syntax--source.syntax--css {
-  .syntax--constant {
-    &.syntax--other.syntax--color {
+  
+  .syntax--constant.syntax--other {
+    color: @hue-6;
+    &.syntax--color {
       color: @hue-2;
     }
   }
+  
   .syntax--entity {
-    &.syntax--name.syntax--tag {
+    &.syntax--name.syntax--tag,
+    &.syntax--name.syntax--tag.syntax--custom {
       color: @hue-1;
-      &.syntax--custom {
-        color: @hue-1;
-      }
     }
     &.syntax--other.syntax--attribute-name {
-      color: @hue-6;
-      &.syntax--attribute {
-        color: @hue-3;
-      }
-      &.syntax--id {
+      color: @hue-2;
+      &.syntax--id,
+      &.syntax--attribute,
+      &.syntax--pseudo-class {
         color: @hue-3;
       }
     }
@@ -30,9 +30,24 @@
 
   .syntax--meta {
     color: @mono-1;
+    &.syntax--attribute-selector {
+      .syntax--entity.syntax--other.syntax--attribute-name {
+        color: @hue-3;
+      }
+    }
     &.syntax--definition {
       &.syntax--variable.syntax--map {
         color: lighten(@mono-2, 15%);
+      }
+    }
+    &.syntax--property-list {
+      color: @mono-1;
+    }
+    &.syntax--selector {
+      .syntax--entity.syntax--other.syntax--attribute-name {
+        &.syntax--pseudo-class {
+          color: @hue-3 !important;
+        }
       }
     }
   }
@@ -61,26 +76,37 @@
     }
   }
 
-  .syntax--support.syntax--function {
-    color: @hue-2;
+  .syntax--support {
+    &.syntax--constant {
+      &.syntax--font-name {
+        color: @hue-5;
+      }
+    }
+    &.syntax--function {
+      color: @hue-2;
+      &.misc {
+        color: @hue-3;
+      }
+    }
   }
 
   .syntax--variable {
+    &.syntax--other,
     &.syntax--interpolation {
-      color: @hue-3;
-    }
-    &.syntax--other {
       color: @hue-3;
     }
   }
 }
 
+// SCSS
 .syntax--source.syntax--scss {
+  
   .syntax--keyword.syntax--control {
     &.syntax--at-rule.syntax--extend {
       color: @hue-1 !important;
     }
   }
+  
   .syntax--punctuation {
     &.sytax--definition {
       color: @hue-1;
@@ -89,12 +115,12 @@
       }
       &.syntax--keyword {
         color: @hue-1 !important;
-        font-style: normal !important;
       }
     }
   }
+  
   .syntax--variable {
-    color: @hue-2;
+    color: @hue-6;
     &.syntax--parameter {
       color: @mono-1;
     }
