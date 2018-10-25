@@ -1,24 +1,67 @@
 .syntax--source.syntax--php {
+  
   .syntax--class.syntax--bracket {
     color: @mono-1;
   }
   
+  .syntax--keyword.syntax--operator {
+    &.syntax--string {
+      color: @hue-3;
+    }
+  }
+  
   .syntax--meta {
     &.syntax--embedded.syntax--block {
-      color: @hue-5;
+      color: @hue-5 !important;
     }
-    &.syntax--function.syntax--arguments {
-      &.syntax--no-default {
+    &.syntax--parameters {
+      color: @hue-6 !important;
+    }
+    &.syntax--function {
+      &.syntax--arguments.syntax--no-default {
         color: @hue-6;
+      }
+      &.syntax--parameter {
+        .syntax--variable.syntax--other,
+        .syntax--punctuation.syntax--definition {
+          color: @hue-6;
+        }
       }
     }
   }
-
-  .syntax--punctuation.syntax--section.syntax--embedded {
-    color: @hue-5 !important;
+  
+  .syntax--punctuation {
+    &.syntax--definition {
+      color: @mono-2;
+    }
+    &.syntax--section,
+    &.syntax--section.syntax--embedded {
+      color: @mono-2 !important;
+    }
+    &.syntax--terminator.syntax--expression {
+      color: @mono-2;
+    }
   }
 
-  .syntax--support.syntax--function.syntax--construct {
-    color: @hue-5;
+  .syntax--storage.syntax--modifier {
+    color: @hue-1;
+  }
+
+  .syntax--support.syntax--function {
+    color: @hue-2;
+    &.syntax--construct,
+    &.syntax--construct.syntax--output {
+      color: @hue-3;
+    }
+  }
+  
+  .syntax--variable {
+    &.syntax--other {
+      color: @mono-1;
+      &.syntax--global,
+      &.syntax--global .syntax--punctuation.syntax--definition {
+        color: @hue-1;
+      }
+    }
   }
 }
