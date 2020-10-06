@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JonSn0w/Atomic-Monokai-Pro-syntax.git"
+    "url": "https://github.com/tterb/Atomic-Monokai-Pro-syntax.git"
   },
   "bugs": {
-    "url": "https://github.com/JonSn0w/Atomic-Monokai-Pro-syntax/issues"
+    "url": "https://github.com/tterb/Atomic-Monokai-Pro-syntax/issues"
   },
   "license": "MIT",
   "engines": {
