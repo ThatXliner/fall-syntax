@@ -1,6 +1,13 @@
 # Change Log
 <br>
 
+## Version 1.2.6  
+
+  * Improved syntax-highlighting for python string-interpolation (#2)
+  * Improved syntax-highlighting for HTML, Java, C, Javascript, Typescript, JSX, CSS, and PHP
+
+-----------------------------------------------------------------------  
+
 ## Version 1.2.5  
 
   * Modified syntax-theme color palette
