@@ -1,4 +1,4 @@
-# expiramental-syntax
+# autumn-syntax
 
 This is my first syntax theme, based off of Atomic-monokai-pro-syntax with only the colors modified. This should look *nothing* like atomic-monokai-pro-syntax.
 
@@ -10,6 +10,6 @@ I hope you like it! :heart:
 
 This theme can be installed from within Atom or via the command:
 ```sh
-$ apm install expiramental-syntax
+$ apm install autumn-syntax
 ```
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.

@@ -1,17 +1,17 @@
 {
-    "name": "expiramental-syntax",
+    "name": "autumn-syntax",
     "theme": "syntax",
     "version": "1.0.0",
-    "description": "My first syntax theme",
+    "description": "A reddish syntax theme",
     "keywords": [
-        "syntax", "rainbow", "beautiful", "one", "first"
+        "syntax", "red", "beautiful", "one", "first", "fall", "autumn"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ThatXliner/Atomic-Monokai-Pro-syntax.git"
+        "url": "https://github.com/ThatXliner/autumn-syntax.git"
     },
     "bugs": {
-        "url": "https://github.com/ThatXliner/Atomic-Monokai-Pro-syntax/issues"
+        "url": "https://github.com/ThatXliner/autumn-syntax/issues"
     },
     "license": "MIT",
     "engines": {
