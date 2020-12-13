@@ -1,24 +1,20 @@
 {
-  "name": "atomic-monokai-pro-syntax",
-  "theme": "syntax",
-  "version": "1.2.6",
-  "description": "An adaptation of the Monokai Pro syntax-theme for Atom",
-  "keywords": [
-    "atomic",
-    "monokai",
-    "pro",
-    "dark",
-    "syntax"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tterb/Atomic-Monokai-Pro-syntax.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tterb/Atomic-Monokai-Pro-syntax/issues"
-  },
-  "license": "MIT",
-  "engines": {
-    "atom": ">0.50.0"
-  }
+    "name": "expiramental-syntax",
+    "theme": "syntax",
+    "version": "1.0.0",
+    "description": "My first syntax theme",
+    "keywords": [
+        "syntax", "rainbow", "beautiful", "one", "first"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThatXliner/Atomic-Monokai-Pro-syntax.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ThatXliner/Atomic-Monokai-Pro-syntax/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "atom": ">0.50.0"
+    }
 }
