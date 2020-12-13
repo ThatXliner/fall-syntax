@@ -1,11 +1,11 @@
 .syntax--source.syntax--python {
-  
+
   .syntax--entity {
     &.syntax--function.syntax--name.syntax--decorator {
       color: @hue-5;
     }
   }
-  
+
   .syntax--keyword {
     &.syntax--operator.syntax--logical.syntax--python {
       color: @hue-1;
@@ -20,13 +20,15 @@
       color: @mono-1;
     }
   }
-  
+
   .syntax--string {
     &.syntax--quoted.syntax--double.syntax--block.syntax--sql {
       color: @mono-3;
     }
     .syntax--storage {
-      color: @hue-3;
+      .syntax--type {
+        color: @hue-3;
+      }
     }
   }
 
