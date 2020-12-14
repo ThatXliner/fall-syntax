@@ -1,5 +1,5 @@
 # fall-syntax
-![APM](https://img.shields.io/apm/dm/fall-syntax) ![APM](https://img.shields.io/apm/l/fall-syntax) ![Build with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)
+[![APM](https://img.shields.io/apm/dm/fall-syntax)](https://atom.io/themes/fall-syntax) [![APM](https://img.shields.io/apm/l/fall-syntax)](https://atom.io/themes/fall-syntax) [![Build with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)](https://atom.io/)
 
 *Fall Syntax* is a syntax theme with 3 points in mind:
 
@@ -9,7 +9,7 @@
 
 ---
 
-![A screenshot of the syntax theme](./screenshot.png)
+[![A screenshot of the syntax theme](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/screenshot.png)](https://github.com/ThatXliner/fall-syntax/blob/master/screenshot.png)
 
 ---
 
