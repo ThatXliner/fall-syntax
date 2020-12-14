@@ -1,10 +1,16 @@
 {
     "name": "fall-syntax",
     "theme": "syntax",
-    "version": "0.0.0",
+    "version": "2.0.0",
     "description": "A reddish syntax theme",
     "keywords": [
-        "syntax", "red", "beautiful", "one", "first", "fall", "autumn"
+        "syntax",
+        "red",
+        "beautiful",
+        "one",
+        "first",
+        "fall",
+        "autumn"
     ],
     "repository": {
         "type": "git",
