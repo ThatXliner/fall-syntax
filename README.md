@@ -1,11 +1,13 @@
 # fall-syntax
 [![APM](https://img.shields.io/apm/dm/fall-syntax)](https://atom.io/themes/fall-syntax) [![APM](https://img.shields.io/apm/l/fall-syntax)](https://atom.io/themes/fall-syntax) [![Build with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)](https://atom.io/)
 
+> A syntax theme for your eyes
+
 *Fall Syntax* is a syntax theme with 3 points in mind:
 
- - Dark, reducing overall energy consumption
- - Warm colors like red (but not too red), to reduce [blue light](https://www.verywellhealth.com/blue-light-exposure-3421985)
- - Meticulously conditioned color so it still looks good.
+ - Reduce [blue light](https://www.verywellhealth.com/blue-light-exposure-3421985) by utilizing **warm colors**
+ - Help you **focus** on code you need to focus on
+ - Eye pleasing, with colors syncing in **harmony**
 
 ---
 
@@ -13,15 +15,15 @@
 
 ---
 
-Unlike most other themes, this theme aims to **reduce eye strain** using **warmer colors**. This works by minimizing the amount of blue light (which can harm your eyes) shown on the screen. You can call it the opposite of [City Lights][2] :wink:.
+Unlike most other themes, this theme aims to **reduce eye strain** using **warmer colors**. This works by *minimizing* the amount of blue light (which can harm your eyes) shown on the screen. You can call it the opposite of [City Lights][2] :wink:.
 
-It's also designed to help the programmer **focus**, *greying out comments* and increasing contrast on **function/class definitions**. `TODO`s and strings still get some limelight, though.
+It's also designed to help the programmer **focus**, *greying out comments* and increasing contrast on **function/class definitions**, helping with visual grepping by providing anchor points of contrast :eyes:.
 
-Being a **dark theme** (which *looks great* during the day *or* night), it helps **reduce energy consumption**. While this **may not be** a huge problem, I've been lately **clutching my battery** with my *Intel-powered Mac* :grimacing:.
+And here's some personal preference: it's a **dark theme** which *looks great* during the day *or* night. Thus helping you **reduce overall energy consumption**. While this **may not be** a huge problem, I've been lately **clutching my battery** with my *Intel-powered Mac* :grimacing:.
 
 ---
 
-This is my first syntax theme, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
+This is my first syntax theme :tada:, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
 
 I hope you like it! :heart:
 
@@ -45,7 +47,7 @@ So I chose a different way.
 
 ### Monochromatic red!
 
-Yeah, um, there's not going to be space for contrast. *Fall Syntax* uses contrast to help with visual grepping for definitions.
+Yeah, um, there's not going to be space for contrast. *Fall Syntax* uses contrast to help with visual grepping for definitions :anchor:.
 
 ### Get a reddy palette and edit that
 
@@ -67,7 +69,7 @@ A: I'm working on making it unique, but yeah: that's the influence. Unlike Monok
 
 **How can I contribute?**
 
-A: Either complain about the colors in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it!
+A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it!
 
 ## Credits
 
