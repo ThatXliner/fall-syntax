@@ -1,4 +1,4 @@
-# autumn-syntax
+# fall-syntax
 
 This is my first syntax theme, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
 
@@ -12,7 +12,7 @@ I hope you like it! :heart:
 
 This theme can be installed from within Atom or via the command:
 ```sh
-$ apm install autumn-syntax
+$ apm install fall-syntax
 ```
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.
 

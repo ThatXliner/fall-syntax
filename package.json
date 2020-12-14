@@ -14,10 +14,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ThatXliner/autumn-syntax.git"
+        "url": "https://github.com/ThatXliner/fall-syntax.git"
     },
     "bugs": {
-        "url": "https://github.com/ThatXliner/autumn-syntax/issues"
+        "url": "https://github.com/ThatXliner/fall-syntax/issues"
     },
     "license": "MIT",
     "engines": {
