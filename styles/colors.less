@@ -7,23 +7,23 @@
 // Monochrome -----------------------------------
 @mono-1: hsl(@syntax-hue, 9%, 88%); // default text
 @mono-2: hsl(@syntax-hue,  9%, 60%);
-@mono-3: #546356;
+@mono-3: #783F5B;  // Comments
 
 // Colors -----------------------------------
-@hue-1:   #EB5C5C;   // <-magenta
-@hue-2:   #B193DF;   // <-blue
-@hue-3:   #9ABD0F;   // <-green
-@hue-4:   #FF9E70;   // <-yellow
-@hue-5:   #97D8A1;   // <-purple
-@hue-6:   #F89612;   // <-orange
-@hue-7:   #FB6423;   // <-red
+@hue-1:   #EB5C5C;   // Keywords and statements
+@hue-2:   #B193DF;   // Functions
+@hue-3:   #97D8A1;   // Important
+@hue-4:   #F6C28B;   // Strings  // FF9E70
+@hue-5:   #FF9E70;   // Constants and types
+@hue-6:   #F89612;   // Arguments and self
+@hue-7:   #FB6423;   // I have no idea what this is for...
 
 
 @bg:  hsl(270, 5%, 17%);
 
 // Base colors -----------------------------------
 @syntax-fg:     @mono-1;
-@syntax-bg:     #1E1C21;  // #22223B #262626
+@syntax-bg:     #1E1C21;  // Background
 @syntax-gutter: darken(@syntax-fg, 35%);
 @syntax-guide:  fade(@syntax-fg, 12%);
 @syntax-accent: hsl(@syntax-hue, 6%, 95%);
