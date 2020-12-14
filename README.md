@@ -61,6 +61,14 @@ Then I filled in the Less and kept on fine-tune and tweaked the colors until I l
 
 A: No, great minds think alike
 
+**Why does it look so simular to monokai?**
+
+A: I'm working on making it unique, but yeah: that's the influence. Unlike Monokai, the colors are more warm (and I try to reduce the amount of blue). You can help me make this syntax it's own!
+
+**How can I contribute?**
+
+A: Either complain about the colors in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it!
+
 ## Credits
 
 Credits to
