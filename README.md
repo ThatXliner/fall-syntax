@@ -1,3 +1,4 @@
+![APM](https://img.shields.io/apm/dm/fall-syntax) ![APM](https://img.shields.io/apm/l/fall-syntax) ![Build with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)
 # fall-syntax
 
 This is my first syntax theme, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
