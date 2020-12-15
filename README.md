@@ -27,7 +27,7 @@ This is my first syntax theme :tada:, based off of (and originally forked from) 
 
 I hope you like it! :heart:
 
-**Sidenote:** I've only well-tested this on python, *but* the other languages (whether it's in `syntax/` or not) *should* have decent synttax highlighting (thanks to @tterb, again). If not, please open an issue!
+**Sidenote:** I've only well-tested this on python, *but* the other languages (whether it's in `tests/syntax/` or not) *should* have decent syntax highlighting (thanks to @tterb, again). If not, please open an issue!
 
 ## Installation
 
@@ -71,7 +71,7 @@ A: I'm working on making it unique, but yeah: that's the influence. Unlike Monok
 
 **How can I contribute?**
 
-A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it!
+A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it! **Some languages may be poorly syntax highlighted.** If you use those languages, feel free to complain in the issues or send a pull request!
 
 ## Credits
 
