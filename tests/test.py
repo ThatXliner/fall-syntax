@@ -8,7 +8,7 @@ def hello_world(name: str) -> None:
     print(f"Hello, {name}")
 
 
-SOME_RE = re.compile(r"T[hat]{3}Xliner\n")
+SOME_RE = re.compile(r"T[hat]{3}Xliner")
 
 if __name__ == "__main__":
     if not SOME_RE.match(sys.argv[1]):
