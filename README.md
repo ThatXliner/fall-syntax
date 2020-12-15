@@ -27,6 +27,8 @@ This is my first syntax theme :tada:, based off of (and originally forked from) 
 
 I hope you like it! :heart:
 
+**Sidenote:** I've only well-tested this on python, *but* the other languages (whether it's in `syntax/` or not) *should* have decent synttax highlighting (thanks to @tterb, again). If not, please open an issue!
+
 ## Installation
 
 This theme can be installed from within Atom or via the command:
@@ -63,7 +65,7 @@ Then I filled in the Less and kept on fine-tune and tweaked the colors until I l
 
 A: No, great minds think alike
 
-**Why does it look so simular to monokai?**
+**Why does it look so similar to monokai?**
 
 A: I'm working on making it unique, but yeah: that's the influence. Unlike Monokai, the colors are more warm (and I try to reduce the amount of blue). You can help me make this syntax it's own!
 
