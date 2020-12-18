@@ -19,13 +19,14 @@ Unlike most other themes, this theme aims to **reduce eye strain** using **warme
 
 It's also designed to help the programmer **focus**, *greying out comments* and increasing contrast on **function/class definitions**, helping with visual grepping by providing anchor points of contrast :eyes:.
 
-And here's some personal preference: it's a **dark theme** which *looks great* during the day *or* night. Thus helping you **reduce overall energy consumption**. While this **may not be** a huge problem, I've been lately **clutching my battery** with my *Intel-powered Mac* :grimacing:.
+And here's some personal preference: it's a **dark theme** which *looks great* during the day *or* night (light version of theme is work in progress). Thus helping you **reduce overall energy consumption**. While this **may not be** a huge problem, I've been lately **clutching my battery** with my *Intel-powered Mac* :grimacing:.
 
 ---
 
 This is my first syntax theme :tada:, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
+This is my first syntax theme :tada:, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
 
-I hope you like it! :heart:
+I hope you like it! :heart:. If you do, **please star this repo and star this theme on Atom**. That way, *you* can let other people find this awesome theme. Who doesn't want that?
 
 **Sidenote:** I've only well-tested this on python, *but* the other languages (whether it's in `tests/syntax/` or not) *should* have decent syntax highlighting (thanks to @tterb, again). If not, please open an issue!
 
