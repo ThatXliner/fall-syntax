@@ -24,7 +24,6 @@ And here's some personal preference: it's a **dark theme** which *looks great* d
 ---
 
 This is my first syntax theme :tada:, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
-This is my first syntax theme :tada:, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
 
 I hope you like it! :heart:. If you do, **please star this repo and star this theme on Atom**. That way, *you* can let other people find this awesome theme. Who doesn't want that?
 
@@ -62,15 +61,15 @@ Then I filled in the Less and kept on fine-tune and tweaked the colors until I l
 
 ## FAQ
 
-**Hey, did you steal some monokai colors!?**
+Q : **Hey, did you steal some monokai colors!?**
 
 A: No, great minds think alike
 
-**Why does it look so similar to monokai?**
+Q : **Why does it look so similar to monokai?**
 
 A: I'm working on making it unique, but yeah: that's the influence. Unlike Monokai, the colors are more warm (and I try to reduce the amount of blue). You can help me make this syntax it's own!
 
-**How can I contribute?**
+Q : **How can I contribute?**
 
 A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it! **Some languages may be poorly syntax highlighted.** If you use those languages, feel free to complain in the issues or send a pull request!
 
