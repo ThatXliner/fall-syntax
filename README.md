@@ -26,6 +26,7 @@ It's also designed to help the programmer **focus**, *greying out comments* and 
 And here's some personal preference: it's a **dark theme** which *looks great*\*\* during the day *or* night (light version of theme is work in progress). Thus helping you **reduce overall energy consumption**. While this **may not be** a huge problem, I've been lately **clutching my battery** with my *Intel-powered Mac* 😬.
 
 <sub>*support may vary depending on language</sub>
+
 <sub>**purely (biased) opinion</sub>
 
 ---
