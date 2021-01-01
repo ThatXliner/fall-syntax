@@ -31,11 +31,10 @@ And here's some personal preference: it's a **dark theme** which *looks great*\*
 
 ---
 
-This is my first syntax theme 🎉, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
+This is my first syntax theme 🎉, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1]. In fact, I've even rewritten the `_base.less` as an optimization.
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, *you* can let other people find this awesome theme. Who doesn't want that?
 
-**Sidenote:** I've only well-tested this on python, *but* the other languages (whether it's in `tests/syntax/` or not) *should* have decent syntax highlighting (thanks to @tterb, again). If not, please open an issue!
 
 ## Installation
 
