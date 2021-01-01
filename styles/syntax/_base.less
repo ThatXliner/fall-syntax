@@ -40,7 +40,8 @@
         color: @hue-2;
     }
 }
-.syntax--parameter {
+.syntax--parameter,
+.syntax--self {
     color: @hue-6;
 }
 // Constants/numbers
@@ -63,11 +64,10 @@
     color: @hue-2;
 }
 .syntax--entity {
-    color: @hue-2;
-    &.syntax--inherited-class {color: @hue-1;}
+    color: @hue-1;
+    &.syntax--name.syntax--type {color: @hue-5}  // Class name
 }
 
 // Misc
 .syntax--decorator {color: @mono-2;}
 .syntax--modifier {color:  @hue-7;}
-.syntax--entity.syntax--name.syntax--type {color: @hue-5}  // Class name
