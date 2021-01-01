@@ -9,6 +9,7 @@
  - Help you **focus** on code you need to focus on
  - Eye pleasing, with colors syncing in **harmony**
 
+
 <sub>*does not prevent 100% blue light from monitor. DO NOT USE AS A REPLACEMENT FOR BLUE LIGHT BLOCKING GLASSES. Coding breaks are still recommended.</sub>
 
 ---
@@ -35,6 +36,7 @@ This is my first syntax theme 🎉, based off of (and originally forked from) [A
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, *you* can let other people find this awesome theme. Who doesn't want that?
 
+If you just want a theme that *just* looks good, I recommend [Atomic-Monokai-Pro](https://github.com/tterb/Atomic-Monokai-Pro-syntax). But then again, it doesn't hurt to give this a try.
 
 ## Installation
 
