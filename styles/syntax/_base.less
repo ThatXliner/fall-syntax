@@ -14,18 +14,10 @@
   color: @hue-3;
 }
 
-// Keywords
-.syntax--keyword {
-    // color: @hue-3;
-    &.syntax--control,
-    &.syntax--logical {
-      color: @hue-1;
-  }
-}
-
-// Type identifiers
 .syntax--type,
-.syntax--operator {
+.syntax--operator,
+.syntax--keyword,
+.syntax--modifier {
   color: @hue-1;
   &.syntax--exception {
       color: @hue-3;
@@ -70,4 +62,3 @@
 
 // Misc
 .syntax--decorator {color: @mono-2;}
-.syntax--modifier {color:  @hue-7;}
