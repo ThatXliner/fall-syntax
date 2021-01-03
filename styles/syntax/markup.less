@@ -1,8 +1,13 @@
 .syntax--markup {
-
+    &.syntax--code > .syntax--support {
+        color:@hue-4;
+    }
+    &.syntax--raw {
+        color: @hue-4;
+    }
     &.syntax--bold {
         font-weight: bold;
-        color: @hue-5;
+        color: @hue-5 !important;
     }
     &.syntax--italic {
         font-style: italic;
@@ -14,11 +19,13 @@
     .syntax--punctuation {
         color: inherit;
     }
-
-}
-.syntax--list {
-    color: @hue-4;
+    &.syntax--list {
+        color: @hue-4;
+    }
 }
 .syntax--mention {
     color: @hue-5;
+}
+.synax--username {
+    color: @hue-4;
 }
