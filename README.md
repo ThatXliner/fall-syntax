@@ -61,7 +61,7 @@ A: I'm working on making it unique, but yeah: that's the influence. Unlike Monok
 
 Q: **How can I contribute?**
 
-A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. I'll merge it if I like it! **Some languages may be poorly syntax highlighted.** If you use those languages, feel free to complain in the issues or send a pull request!
+A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. Or you can **help me port this theme to other editors** I'll merge it if I like it! **Some languages may be poorly syntax highlighted.** If you use those languages, feel free to complain in the issues or send a pull request!
 
 ## Credits
 
