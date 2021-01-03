@@ -46,28 +46,6 @@ $ apm install fall-syntax
 ```
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.
 
-## Creation and design
-
-I took three different ways until deciding on how to make this theme
-
-### Just make it redder
-
-I loved [the monokai pro syntax theme][1] for [Atom](https://atom.io/). But just warming the colors isn't creative and **the result was ugly**.
-
-So I chose a different way.
-
-### Monochromatic red!
-
-Yeah, um, there's not going to be space for contrast.
-
-### Get a reddy palette and edit that
-
-So I used [Coolors.co](https://coolors.co/) to help me generate some colors. I selected the ones I like and kept on spamming <kbd>space</kbd> until I liked the palette.
-
-Then I filled in the Less and kept on fine-tune and tweaked the colors until I liked them. **This is the method I settled with.**
-
-**NOTE**: plainly choosing the colors from a photo and smacking it here may seem nice but actually, it's not going to be well calibrated. The colors here are *meticulously* chosen with great care.
-
 ## FAQ
 
 Q : **Hey, did you steal some monokai colors!?**
