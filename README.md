@@ -16,7 +16,10 @@
 
 [![A screenshot of the syntax theme](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/screenshot.png)](https://github.com/ThatXliner/fall-syntax/blob/master/screenshot.png)
 
-*Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode) with ligatures `ss01`, `ss02`, `ss03`, `ss05`, and `ss06` enabled*
+*Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
+
+
+*Also used* [*MagicPython*](https://github.com/MagicStack/MagicPython) *for enhanced python syntax highlighting*
 
 ---
 
