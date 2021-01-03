@@ -1,7 +1,7 @@
 # fall-syntax
 [![APM](https://img.shields.io/apm/dm/fall-syntax)](https://atom.io/themes/fall-syntax) [![APM](https://img.shields.io/apm/l/fall-syntax)](https://atom.io/themes/fall-syntax) [![Build with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)](https://atom.io/)
 
-> A syntax theme for your eyes
+![Banner](./banner.png)
 
 *Fall Syntax* is a syntax theme with 3 points in mind:
 
@@ -86,6 +86,7 @@ A: Either ~~complain about the colors~~ professionally critique the theme in the
 
 Credits to
 
+ - My ***epic*** friends @KomodoKode and @thatdevboyjun for feedback, suggestions, and critique!
  - @tterb for his *amazing* https://github.com/tterb/Atomic-Monokai-Pro-syntax
  - The [City lights theme][2] for major inspiration
  - Wimer Hazenberg and his [Monokai Pro theme](https://monokai.pro/), which has heavily influenced the design. You can see traces of Monokai hidden in the theme
