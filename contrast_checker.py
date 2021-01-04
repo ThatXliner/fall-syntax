@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 from typing import Tuple
 
-PROJECT_DIR = Path(__file__).parent.parent.absolute()
+PROJECT_DIR = Path(__file__).parent.absolute()
 assert PROJECT_DIR.name == "fall-syntax", PROJECT_DIR
 
 
@@ -50,8 +50,12 @@ if __name__ == "__main__":
     print("========================")
     print()
     print("READING styles/colors.less")
-    colors_less = PROJECT_DIR.joinpath("styles/colors.less")
-    assert colors_less.exists() and colors_less.is_file()
+    colors_less = PROJECT_DIR.joinpath("styles").joinpath("colors.less")
+    # assert colors_less.exists() and colors_less.is_file(), (
+    #     colors_less,
+    #     colors_less.exists(),
+    #     colors_less.is_file(),
+    # )
     colors_less_contents = colors_less.read_text()
 
     print("FINDING background color")
@@ -70,14 +74,14 @@ if __name__ == "__main__":
         contrast_ratio = get_contrast_ratio(background_color, crgb)
         if not contrast_ratio >= TARGET_RATIO:
             print(
-                f"\N{COLLISION} Failing color:\nName: {cname}\nHex: {chex}\nContrast ratio: {contrast_ratio}"
+                f"\N{COLLISION SYMBOL} Failing color:\nName: {cname}\nHex: {chex}\nContrast ratio: {contrast_ratio}"
             )
             failing_colors += 1
             continue
         print("\N{WHITE HEAVY CHECK MARK} Good!")
 
     if failing_colors > 0:
-        print(f"\N{COLLISION} {failing_colors} colors failed")
+        print(f"\N{COLLISION SYMBOL} {failing_colors} colors failed")
         print("===TEST SESSION END===")
         sys.exit(1)
     print("\N{WHITE HEAVY CHECK MARK} All done!")
