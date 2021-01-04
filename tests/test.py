@@ -25,11 +25,11 @@ class Greeter(object):
         hello_world(name=self._name)
 
 
-SOME_RE = re.compile(r"T[hat]{3}Xliner")
+SOME_RE = _re.compile(r"T[hat]{3}Xliner")
 
 if __name__ == "__main__":
-    if not SOME_RE.match(sys.argv[1]):
-        hello_world(sys.argv[1])
+    if not SOME_RE.match(_sys.argv[1]):
+        hello_world(_sys.argv[1])
     else:
         print("You are cool!")  # Haha, vanity
         # NOTE: Reduce the vanity
