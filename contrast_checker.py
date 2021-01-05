@@ -20,6 +20,7 @@ def get_rel_luminance(R, G, B) -> float:
 def get_contrast_ratio(
     fore: Tuple[float, float, float], back: Tuple[float, float, float]
 ) -> float:
+    """As described in https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-procedure"""
 
     return (get_rel_luminance(*back) + 0.05) / (get_rel_luminance(*fore) + 0.05)
 
