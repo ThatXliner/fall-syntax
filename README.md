@@ -3,11 +3,11 @@
 
 ![Banner](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/banner.png)
 
-*Fall Syntax* is a syntax theme with 3 points in mind:
+*Fall Syntax* is a syntax theme with 3 design points in mind:
 
- - Reduce [blue light](https://www.verywellhealth.com/blue-light-exposure-3421985) by utilizing **warm colors**\*
- - Help you **focus** on code you need to focus on
- - Eye pleasing, with colors syncing in **harmony**
+ - Reduce [blue light](https://www.verywellhealth.com/blue-light-exposure-3421985)\*
+ - Make code clear
+ - Still look good
 
 
 <sub>*does not prevent 100% blue light from monitor. DO NOT USE AS A REPLACEMENT FOR BLUE LIGHT BLOCKING GLASSES. Coding breaks are still recommended.</sub>
