@@ -1,7 +1,7 @@
 # fall-syntax
 [![APM](https://img.shields.io/apm/dm/fall-syntax)](https://atom.io/themes/fall-syntax) [![APM](https://img.shields.io/apm/l/fall-syntax)](https://atom.io/themes/fall-syntax) [![Build with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)](https://atom.io/)
 
-![Banner](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/banner.png)
+![Banner](./banner.png)
 
 *Fall Syntax* is a syntax theme with 3 design points in mind:
 
@@ -14,7 +14,7 @@
 
 ---
 
-![A screenshot of the syntax theme](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/screenshot.png)
+![A screenshot of the syntax theme](./screenshot.png)
 
 *Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
 
