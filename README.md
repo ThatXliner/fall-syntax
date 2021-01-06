@@ -14,7 +14,7 @@
 
 ---
 
-[![A screenshot of the syntax theme](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/screenshot.png)](https://github.com/ThatXliner/fall-syntax/blob/master/screenshot.png)
+[![A screenshot of the syntax theme](./screenshot.png)
 
 *Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
 
