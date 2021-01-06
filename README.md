@@ -14,7 +14,7 @@
 
 ---
 
-[![A screenshot of the syntax theme](./screenshot.png)
+![A screenshot of the syntax theme](./screenshot.png)
 
 *Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
 
