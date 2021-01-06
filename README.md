@@ -14,7 +14,7 @@
 
 ---
 
-[![A screenshot of the syntax theme](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/screenshot.png)](https://github.com/ThatXliner/fall-syntax/blob/master/screenshot.png)
+![A screenshot of the syntax theme](./screenshot.png)
 
 *Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
 
@@ -23,11 +23,23 @@
 
 ---
 
-Unlike most other themes, this theme aims to **reduce eye strain** using **warmer colors**. This works by *minimizing* the amount of blue light (which can harm your eyes) shown on the screen. You can call it the opposite of [City Lights][2] 😉. These colors are color contrast tested to be at least WCAG (Web Content Accessibility Guidelines) success criterion **1.4.3**.
+### Reduce blue light
 
-It's also designed to help the programmer **focus**, *greying out comments* and increasing contrast on **function/class definitions**\*, helping with visual grepping by providing anchor points of contrast 👀.
+Unlike most other themes, this theme aims to **reduce eye strain** by *minimizing* the amount of blue light (which can harm your eyes) shown on the screen. You can call it the opposite of [City Lights][2] 😉.
 
-And here's some personal preference: it's a **dark theme** which *looks great*\*\* during the day *or* night (light version of theme is work in progress). Thus helping you **reduce overall energy consumption**. While this **may not be** a huge problem, I've been lately **clutching my battery** with my *Intel-powered Mac* 😬.
+### Make code clear
+
+This theme has a style-sheet **completely rewritten** from scratch, that helps the programmer **focus**. Some features of this are:
+
+ - *Greying out comments* and string endings
+ - Increase color contrast on **function/class definitions**\*
+ - Regular expression syntax support
+
+### Still look good
+
+Using **warmer colors**, this theme is reddish and aesthetic, giving that post-summer vibe. Not too neon, not too light.
+
+These colors are also **color contrast tested** to be at least WCAG (Web Content Accessibility Guidelines) success criterion **1.4.3**.
 
 <sub>*support may vary depending on language</sub>
 
@@ -35,7 +47,7 @@ And here's some personal preference: it's a **dark theme** which *looks great*\*
 
 ---
 
-This is my first syntax theme 🎉, based off of (and originally forked from) [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1]. In fact, I've even rewritten the `_base.less` as an optimization.
+This is my first syntax theme 🎉, originally forked from [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1]. In fact, I've even completely rewritten the `_base.less` as an optimization.
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, you can let other people find this theme.
 
