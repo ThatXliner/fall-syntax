@@ -62,4 +62,10 @@
 }
 
 // Misc
-.syntax--decorator {color: @mono-2;}
+.syntax--decorator {
+    color: @mono-2;
+    .syntax--arguments {
+        color: @mono-1;
+    }
+}
+.linter-error {color:@syntax-illegal-bg;}
