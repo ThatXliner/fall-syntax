@@ -24,7 +24,7 @@
 ---
 
 
-I've sought to build a syntax theme on top of those principals. I knew that [blue light causes eyestrain and headaches](https://www.foreyes.com/blog/10-ways-how-blue-light-can-affect-you), which are bad for the programmer (and the average computer user).
+I've sought out to build a syntax theme on top of those principals; something that minimizes the blue but still looks good. Why? I knew that [blue light causes eyestrain and headaches](https://www.foreyes.com/blog/10-ways-how-blue-light-can-affect-you), which are a nuisance for the programmer (and the average computer user).
 
 After about a month of color-picking, discussion, and color-tweaking, *Fall Syntax* was here. Every hue, every shade, was **meticulously hand-picked**, tested, and checked.
 
@@ -34,7 +34,7 @@ After about a month of color-picking, discussion, and color-tweaking, *Fall Synt
 
  - "Does this shade sing in harmony with the others?"
 
-Naturally, the colors are reddish, giving that **post-summer vibe**.
+Naturally, the colors are reddish and aesthetic, giving that **post-summer vibe**.
 
 Besides warm colors, *Fall Syntax* features some nice perks such as
 
