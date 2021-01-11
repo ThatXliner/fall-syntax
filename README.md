@@ -30,17 +30,17 @@ After about a month of color-picking, discussion, and color-tweaking, *Fall Synt
 
  - "Is this color *not* blue?"
 
- - "Does the color contrast meet WCAG criterion 1.4.3?"
+ - "Does the color contrast meet **WCAG criterion 1.4.3**?"
 
- - "Does this shade sing in harmony with the others?"
+ - "Does this shade **sing in harmony** with the others?"
 
 Naturally, the colors are reddish and aesthetic, giving that **post-summer vibe**.
 
 Besides warm colors, *Fall Syntax* features some nice perks such as
 
- - Trivial components of code (like comments) are faded
- - Specialized RegEx syntax support
- - Increased contrast on function/class definitions\*
+ - Trivial components of code (like comments) are **faded**
+ - Specialized **RegEx syntax support**
+ - **Increased contrast** on function/class definitions\*
 
 Enjoy!
 
