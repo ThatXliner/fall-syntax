@@ -51,8 +51,6 @@ This is my first syntax theme 🎉, originally forked from [Atomic-monokai-pro-s
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, you can let other people find this theme.
 
-If you just want a theme that *just* looks good, I recommend [Atomic-Monokai-Pro](https://github.com/tterb/Atomic-Monokai-Pro-syntax). But then again, it doesn't hurt to give this a try.
-
 ## Installation
 
 This theme can be installed from within Atom or via the command:
