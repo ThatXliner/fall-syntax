@@ -14,7 +14,7 @@
 
 ---
 
-![A screenshot of the syntax theme](https://raw.githubusercontent.com/ThatXliner/fall-syntax/master/screenshot.png)
+![A screenshot of the syntax theme](./screenshot.png)
 
 *Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
 
@@ -22,6 +22,7 @@
 *Also used* [*MagicPython*](https://github.com/MagicStack/MagicPython) *for enhanced python syntax highlighting*
 
 ---
+
 
 ### Reduce blue light
 
@@ -37,11 +38,15 @@ This theme has a style-sheet **completely rewritten** from scratch, that helps t
 
 ### Still look good
 
-Using **warmer colors**, this theme is reddish and aesthetic, giving that post-summer vibe. Not too neon, not too light.
+Using **warmer colors**, this theme is reddish and aesthetic, giving that **post-summer vibe**. Not too neon, not too light.
 
 These colors are also **color contrast tested** to be at least WCAG (Web Content Accessibility Guidelines) success criterion **1.4.3**.
 
-<sub>*support may vary depending on language</sub>
+### Outcome
+
+From the really beginning, I've sought out to create a syntax theme that meets those requirements. The outcome of this is a vibrant, warm, syntax theme that helps the programmer code. 
+
+<sub>*support may vary depending on language. Check the FAQ for more info.</sub>
 
 <sub>**purely (biased) opinion</sub>
 
@@ -60,6 +65,11 @@ $ apm install fall-syntax
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.
 
 ## FAQ
+
+Q: **This syntax highlighting is degraded**
+
+A: You're probably having tree-sisters parsing on. While it is a promising technology, it currently seems to degrade syntax highlighting. I recommend you turn it off on Settings > Core
+
 
 Q: **Hey, did you steal some monokai colors!?**
 
