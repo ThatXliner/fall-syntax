@@ -24,31 +24,27 @@
 ---
 
 
-### Reduce blue light
+I've sought to build a syntax theme on top of those principals. I knew that [blue light causes eyestrain and headaches](https://www.foreyes.com/blog/10-ways-how-blue-light-can-affect-you), which are bad for the programmer (and the average computer user).
 
-Unlike most other themes, this theme aims to **reduce eye strain** by *minimizing* the amount of blue light (which can harm your eyes) shown on the screen. You can call it the opposite of [City Lights][2] 😉.
+After about a month of color-picking, discussion, and color-tweaking, *Fall Syntax* was here. Every hue, every shade, was **meticulously hand-picked**, tested, and checked.
 
-### Make code clear
+ - "Is this color *not* blue?"
 
-This theme has a style-sheet **completely rewritten** from scratch, that helps the programmer **focus**. Some features of this are:
+ - "Does the color contrast meet WCAG criterion 1.4.3?"
 
- - *Greying out comments* and string endings
- - Increase color contrast on **function/class definitions**\*
- - Regular expression syntax support
+ - "Does this shade sing in harmony with the others?"
 
-### Still look good
+Naturally, the colors are reddish, giving that **post-summer vibe**.
 
-Using **warmer colors**, this theme is reddish and aesthetic, giving that **post-summer vibe**. Not too neon, not too light.
+Besides warm colors, *Fall Syntax* features some nice perks such as
 
-These colors are also **color contrast tested** to be at least WCAG (Web Content Accessibility Guidelines) success criterion **1.4.3**.
+ - Trivial components of code (like comments) are faded
+ - Specialized RegEx syntax support
+ - Increased contrast on function/class definitions\*
 
-### Outcome
-
-From the really beginning, I've sought out to create a syntax theme that meets those requirements. The outcome of this is a vibrant, warm, syntax theme that helps the programmer code. 
+Enjoy!
 
 <sub>*support may vary depending on language. Check the FAQ for more info.</sub>
-
-<sub>**purely (biased) opinion</sub>
 
 ---
 
