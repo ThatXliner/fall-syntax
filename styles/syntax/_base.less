@@ -6,45 +6,45 @@
   font-style: italic;
   .syntax--keyword,
   .syntax--class {
-      color: @hue-3;
+      color: @important-color;
   }
 }
 // Links (in comments or strings)
 .syntax--link {
-  color: @hue-3;
+  color: @important-color;
 }
 
 .syntax--type,
 .syntax--operator,
 .syntax--keyword,
 .syntax--modifier {
-  color: @hue-1;
+  color: @keyword-color;
   &.syntax--exception {
-      color: @hue-3;
+      color: @important-color;
   }
 }
 
 // Class/function definition keywords
 .syntax--class,
 .syntax--function {
-    color: @hue-3;
+    color: @important-color;
     &.syntax--name {
-        color: @hue-2;
+        color: @function-color;
     }
 }
 .syntax--parameter,
 .syntax--self {
-    color: @hue-6;
+    color: @arg-color;
 }
 // Constants/numbers
 .syntax--constant,
 .syntax--escape {
-  color: @hue-5;
+  color: @constant-color;
 }
 .syntax--string {
-    color: @hue-4;
+    color: @string-color;
     &.syntax--type {
-        color:  @hue-3;
+        color:  @important-color;
     }
 }
 .syntax--begin,
@@ -54,11 +54,11 @@
 // Magics, builtins
 .syntax--builtin,
 .syntax--magic {
-    color: @hue-2;
+    color: @function-color;
 }
 .syntax--entity {
-    color: @hue-1;
-    &.syntax--name.syntax--type {color: @hue-5}  // Class name
+    color: @keyword-color;
+    &.syntax--name.syntax--type {color: @constant-color}  // Class name
 }
 
 // Misc

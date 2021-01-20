@@ -41,6 +41,7 @@ assert round(get_contrast_ratio((17, 42, 70), (172, 200, 229)), 2) == 8.42
 COLOR_RE = re.compile(
     r"^@(?P<name>[^:]+):\s*#(?P<hex>[a-zA-Z0-9]{6});", flags=re.MULTILINE
 )
+FALL_COLORS_RE = re.compile(r".+-color")
 BG_RE = re.compile(r"^@syntax-bg:\s*#(?P<hex>[a-zA-Z0-9]{6});", flags=re.MULTILINE)
 
 if __name__ == "__main__":
@@ -66,7 +67,7 @@ if __name__ == "__main__":
     failing_colors = 0
     for color in COLOR_RE.finditer(colors_less_contents):
         cname, chex = color["name"], color["hex"]
-        if not cname.startswith("hue"):
+        if not FALL_COLORS_RE.match(cname):
             continue
 
         print(f"Validating @{cname} (#{chex})...", end=" ", flush=True)
