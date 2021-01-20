@@ -62,22 +62,22 @@ After installation, you can activated by going to the **Settings > Themes** sect
 
 ## FAQ
 
+Q: **I need this for other editors**
+
+A: I'm glad you like this but I really don't know how to port this to other editors other than Atom. While I can use [this awesome tool][tool], the generated syntax highlighting may be degraded and doesn't meet the quality standards I boast for. That is, unless it does. Then open an issue about telling me about the ports!
+
 Q: **This syntax highlighting is degraded**
 
-A: You're probably having tree-sisters parsing on. While it is a promising technology, it currently seems to degrade syntax highlighting. I recommend you turn it off on Settings > Core
+A: You're probably having tree-sisters parsing on. While it is a promising technology, it currently seems to degrade syntax highlighting. I recommend you turn it off on Settings > Core. If that's not the case **feel free to complain in the issues or send a pull request!**. I have rewritten the \_base.less by hand so I have probably dropped support for some markup/programming languages.
 
+Q: **This looks like (insert some theme name)**
 
-Q: **Hey, did you steal some monokai colors!?**
-
-A: No, great minds think alike
-
-Q: **Why does it look so similar to monokai?**
-
-A: I'm working on making it unique, but yeah: that's the influence. Unlike Monokai, the colors are more warm (and I try to reduce the amount of blue). You can help me make this syntax it's own!
+A: Welp. Great minds think alike!
 
 Q: **How can I contribute?**
 
-A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. Or you can **help me port this theme to other editors** I'll merge it if I like it! **Some languages may be poorly syntax highlighted.** If you use those languages, feel free to complain in the issues or send a pull request!
+A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. Or you can **help me port this theme to other editors** I'll merge it if I like it!
+
 
 ## Credits
 
@@ -91,3 +91,4 @@ Credits to
 
 [1]: https://github.com/tterb/Atomic-Monokai-Pro-syntax
 [2]: http://citylights.xyz/
+[tool]: http://k88hudson.github.io/syntax-highlighting-theme-generator/www/
