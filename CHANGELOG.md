@@ -2,6 +2,14 @@
 
 ## Version 2 (First version)*
 
+### v2.3.0
+
+ - Better README
+ - Better syntax highlighing ([44ee8a5](https://github.com/ThatXliner/fall-syntax/commit/44ee8a53a47eb8fed4c85c691a2d70194ef3fe7f))
+ - Added build workflow ([#23](https://github.com/ThatXliner/fall-syntax/pull/23))
+ - Refactored variables ([#22](https://github.com/ThatXliner/fall-syntax/pull/22))
+
+
 ### v2.2.0
 
  - Added `CHANGELOG.md`
