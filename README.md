@@ -32,7 +32,7 @@ After about a month of color-picking, discussion, and color-tweaking, *Fall Synt
 
  - "Does the color contrast meet **WCAG criterion 1.4.3**?"
 
- - "Does this shade **sing in harmony** with the others?"
+ - "Does this shade **sing in harmony** with the others? Is the shade consistant?"
 
 Naturally, the colors are reddish and aesthetic, giving that **post-summer vibe**.
 
