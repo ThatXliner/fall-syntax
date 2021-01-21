@@ -68,4 +68,13 @@
         color: @mono-1;
     }
 }
+.syntax--invalid {
+    color: @syntax-illegal-fg;
+    background: @syntax-illegal-bg;
+    &.syntax--deprecated {
+      color: @syntax-deprecated-fg;
+      background-color: @syntax-deprecated-bg;
+    }
+}
+
 // .linter-error {color:@syntax-illegal-bg;}
