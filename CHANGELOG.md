@@ -2,6 +2,14 @@
 
 ## Version 2 (First version)*
 
+### v2.4.0
+
+ - **MAJOR CHANGE:** Pink-hue UI ([#26](https://github.com/ThatXliner/fall-syntax/pull/26))
+ - Added support for invalid/deprecated code ([0a7bd41](https://github.com/ThatXliner/fall-syntax/commit/0a7bd41a1e9d8dd8fc3a08219a9de9d3b30a8808))
+ - Lighter background color ([#25](https://github.com/ThatXliner/fall-syntax/pull/25))
+ - A more saturated green ([831b89a](https://github.com/ThatXliner/fall-syntax/commit/831b89ae7bf5ba5865279c533d40b0f431a2daed))
+
+
 ### v2.3.0
 
  - Better README
