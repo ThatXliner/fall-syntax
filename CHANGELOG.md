@@ -8,6 +8,7 @@
  - Added support for invalid/deprecated code ([0a7bd41](https://github.com/ThatXliner/fall-syntax/commit/0a7bd41a1e9d8dd8fc3a08219a9de9d3b30a8808))
  - Lighter background color ([#25](https://github.com/ThatXliner/fall-syntax/pull/25))
  - A more saturated green ([831b89a](https://github.com/ThatXliner/fall-syntax/commit/831b89ae7bf5ba5865279c533d40b0f431a2daed))
+ - Updated `syntax-variables.less` ([a394a98](https://github.com/ThatXliner/fall-syntax/commit/a394a9822a51cbb8eb85f64c788d6fa96ab079ca))
 
 
 ### v2.3.0
