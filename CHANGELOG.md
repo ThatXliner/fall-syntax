@@ -9,12 +9,14 @@
  - Lighter background color ([#25](https://github.com/ThatXliner/fall-syntax/pull/25))
  - A more saturated green ([831b89a](https://github.com/ThatXliner/fall-syntax/commit/831b89ae7bf5ba5865279c533d40b0f431a2daed))
  - Updated `syntax-variables.less` ([a394a98](https://github.com/ThatXliner/fall-syntax/commit/a394a9822a51cbb8eb85f64c788d6fa96ab079ca))
+ - Added specialized support for Lark grammars ([#27](https://github.com/ThatXliner/fall-syntax/pull/27))
+ - Added specialized support for CoffeeScript ([#28](https://github.com/ThatXliner/fall-syntax/pull/28))
 
 
 ### v2.3.0
 
  - Better README
- - Better syntax highlighing ([44ee8a5](https://github.com/ThatXliner/fall-syntax/commit/44ee8a53a47eb8fed4c85c691a2d70194ef3fe7f))
+ - Better syntax highlighting ([44ee8a5](https://github.com/ThatXliner/fall-syntax/commit/44ee8a53a47eb8fed4c85c691a2d70194ef3fe7f))
  - Added build workflow ([#23](https://github.com/ThatXliner/fall-syntax/pull/23))
  - Refactored variables ([#22](https://github.com/ThatXliner/fall-syntax/pull/22))
 
