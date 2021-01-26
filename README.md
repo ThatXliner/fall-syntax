@@ -16,11 +16,6 @@
 
 ![A screenshot of the syntax theme](./screenshot.png)
 
-*Font used in screenshot: [Fira Code](https://github.com/tonsky/FiraCode)*
-
-
-*Also used* [*MagicPython*](https://github.com/MagicStack/MagicPython) *for enhanced python syntax highlighting*
-
 ---
 
 
@@ -78,6 +73,15 @@ Q: **How can I contribute?**
 
 A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. Or you can **help me port this theme to other editors** I'll merge it if I like it!
 
+## More images
+
+<details>
+
+<summary>Click to expand</summary>
+
+<img src="./screenshot1.png"></img>
+<img src="./screenshot2.png"></img>
+</details>
 
 ## Credits
 
