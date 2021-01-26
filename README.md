@@ -73,7 +73,7 @@ Q: **How can I contribute?**
 
 A: Either ~~complain about the colors~~ professionally critique the theme in the issues or send a pull request for some different colors/arrangements. Or you can **help me port this theme to other editors** I'll merge it if I like it!
 
-## More images
+<!-- ## More images
 
 <details>
 
@@ -81,7 +81,7 @@ A: Either ~~complain about the colors~~ professionally critique the theme in the
 
 <img src="./screenshot1.png"></img>
 <img src="./screenshot2.png"></img>
-</details>
+</details> -->
 
 ## Credits
 
