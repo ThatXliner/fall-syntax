@@ -95,4 +95,4 @@ Credits to
 
 [1]: https://github.com/tterb/Atomic-Monokai-Pro-syntax
 [2]: http://citylights.xyz/
-[tool]: http://k88hudson.github.io/syntax-highlighting-theme-generator/www/
+[tool]: https://mswift42.github.io/themecreator/
