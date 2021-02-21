@@ -47,10 +47,11 @@
     &.syntax--type {
         color:  @important-color;
     }
+    .syntax--embedded {color: @constant-color;}
 }
 .syntax--begin,
 .syntax--end {
-    color: @mono-2;
+    color: @mono-2 !important;
 }
 // Magics, builtins
 .syntax--builtin,
@@ -77,5 +78,5 @@
       background-color: @syntax-deprecated-bg;
     }
 }
-.syntax--embedded {color: @constant-color;}
+
 // .linter-error {color:@syntax-illegal-bg;}
