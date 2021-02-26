@@ -1,6 +1,8 @@
 .syntax--markup {
-    &.syntax--code > .syntax--support {
-        color:@string-color;
+    &.syntax--code {
+        .syntax--support {
+            color:@mono-2;
+        }
     }
     &.syntax--raw {
         color: @string-color;
@@ -16,9 +18,9 @@
     &.syntax--heading {
         color: @keyword-color;
     }
-    .syntax--punctuation {
-        color: inherit;
-    }
+    // .syntax--punctuation {
+    //     color: inherit;
+    // }
     &.syntax--list {
         color: @string-color;
     }

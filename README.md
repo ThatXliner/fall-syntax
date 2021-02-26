@@ -21,19 +21,13 @@
 
 I've sought out to build a syntax theme on top of those principals; something that minimizes the blue but still looks good. Why? I knew that [blue light causes eyestrain and headaches](https://www.foreyes.com/blog/10-ways-how-blue-light-can-affect-you), which are a nuisance for the programmer (and the average computer user).
 
-After about a month of color-picking, discussion, and color-tweaking, *Fall Syntax* was here. Every hue, every shade, was **meticulously hand-picked**, tested, and checked.
-
- - "Is this color *not* blue?"
-
- - "Does the color contrast meet **WCAG criterion 1.4.3**?"
-
- - "Does this shade **sing in harmony** with the others? Is the shade consistant?"
+After about a month of color-picking, discussion, and color-tweaking, *Fall Syntax* was here. Every hue, every shade, was **meticulously hand-picked**, tested, and **checked against standards** such as the [WCAG 2.0 contrast ratio criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).
 
 Naturally, the colors are reddish and aesthetic, giving that **post-summer vibe**.
 
-Besides warm colors, *Fall Syntax* features some nice perks such as
+Besides warm colors, *Fall Syntax* features some nice **perks** such as
 
- - Trivial components of code (like comments) are **faded**
+ - Trivial components of code (like comments and bracket pairs) are **faded**
  - Specialized **RegEx syntax support**
  - **Increased contrast** on function/class definitions\*
 
