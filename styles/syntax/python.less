@@ -1,4 +1,13 @@
 .syntax--python {
+    &.syntax--unpacking {
+        color: @keyword-color;
+    }
+    &.syntax--parameters {
+            color: @mono-2;
+    }
+    &.syntax--annotation ~ .syntax--meta {
+            color: @mono-1;
+    }
     &.syntax--console { // Python console
         &.syntax--prompt {
             color: @keyword-color;
