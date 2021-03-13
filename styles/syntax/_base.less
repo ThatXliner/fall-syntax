@@ -57,8 +57,10 @@
 .syntax--bracket {
     color: @mono-2 !important;
 }
-.syntax--punctuation.syntax--separator.syntax--colon {
-    color: @mono-1 !important;
+.syntax--punctuation.syntax--separator {
+    &.syntax--colon, &.syntax--period {
+        color: @mono-1 !important;
+    }
 }
 // Magics, builtins
 .syntax--builtin,
