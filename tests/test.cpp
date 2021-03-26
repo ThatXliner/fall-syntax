@@ -51,3 +51,10 @@ int main(int argc, char const *argv[]) {
         // NOTE: Reduce the vanity
     return 0;
 }
+int average(std::vector<int> v) {
+    int average = 0;
+    for (int i = 0; i < v.size(); i++) {
+        average += v[i];
+    }
+    return average / v.size();
+}

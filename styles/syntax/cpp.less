@@ -1,9 +1,13 @@
 .syntax--c {
-    &.syntax--class,
-    &.syntax--function {
-        color: @mono-1;
-        &.syntax--name {
+    // &.syntax--storage.syntax--type:has(.syntax--meta.syntax--function) {
+    //         color: @important-color;
+    // }
+
+    // NOTE: When :has support comes, the below can be replaced with the above
+    &.syntax--storage.syntax--type:first-child {
             color: @important-color;
-        }
+    }
+    &.syntax--meta.syntax--function {
+        color: @mono-1;
     }
 }

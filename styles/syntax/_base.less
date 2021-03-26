@@ -49,8 +49,8 @@
     }
     .syntax--embedded {color: @constant-color;}
 }
-.syntax--begin,
-.syntax--end,
+.syntax--begin:not(.syntax--comment),
+.syntax--end:not(.syntax--comment),
 .syntax--brace,
 .syntax--round,
 .syntax--punctuation.syntax--separator:not(:only-child),
