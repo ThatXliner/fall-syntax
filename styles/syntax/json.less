@@ -1,9 +1,8 @@
 .syntax--json {
-    &.syntax--meta.syntax--structure{
-        &.syntax--dictionary{
-            &.syntax--key > .syntax--string {
+    &.syntax--dictionary{
+            &.syntax--key > .syntax--string,&.syntax--key.syntax--string {
                 color: @keyword-color;
             }
         }
-    }
+    // }
 }
