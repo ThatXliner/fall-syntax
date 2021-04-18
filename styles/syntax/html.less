@@ -1,5 +1,21 @@
 .syntax--html {
-    &.syntax--punctuation.syntax--tag,&.syntax--doctype {
+    &.syntax--punctuation.syntax--tag {
         color: @mono-2
+    }
+    .syntax--doctype.syntax--meta {
+        color: @function-color;
+    }
+    // Special tags
+    .syntax--meta,
+    .syntax--script,
+    .syntax--link,
+    .syntax--title,
+    // .syntax--head,
+    // .syntax--body,
+    {
+        color: @constant-color;
+    }
+    &.syntax--attribute-name {
+            color: @arg-color;
     }
 }
