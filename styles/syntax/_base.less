@@ -54,7 +54,8 @@
 .syntax--brace,
 .syntax--round,
 .syntax--punctuation.syntax--separator:not(:only-child),
-.syntax--bracket {
+.syntax--bracket,
+.syntax--punctuation.syntax--string {
     color: @mono-2 !important;
 }
 .syntax--punctuation.syntax--separator {
@@ -69,7 +70,7 @@
 }
 .syntax--entity {
     color: @keyword-color;
-    &.syntax--name.syntax--type {color: @constant-color}  // Class name
+    &.syntax--name.syntax--type,&.syntax--self {color: @arg-color}  // Class name
 }
 
 // Misc
