@@ -2,5 +2,13 @@
     &.syntax--variable {
         color: @keyword-color;
     }
+    &.syntax--keyword {
+        color: @function-color;
+    }
+    &.syntax--parent-selector {
+        .syntax--punctuation {
+            color: @important-color;
+        }
+    }
     &.syntax--property-name {color: @constant-color}
 }
