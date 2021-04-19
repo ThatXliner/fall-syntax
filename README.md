@@ -41,6 +41,8 @@ This is my first syntax theme 🎉, originally forked from [Atomic-monokai-pro-s
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, you can let other people find this theme.
 
+> According to GitHub Analytics only a small percentage of you have actually starred, so please star the repository.
+ - [@KomodoKode](https://github.com/KomodoKode)
 ## Installation
 
 This theme can be installed from within Atom or via the command:
@@ -81,7 +83,7 @@ A: Either ~~complain about the colors~~ professionally critique the theme in the
 
 Credits to
 
- - My ***epic*** friends @KomodoKode and @thatdevboyjun for feedback, suggestions, and critique! Thanks guys!
+ - My ***epic*** friends [@KomodoKode](https://github.com/KomodoKode) and [@thatdevboyjun](https://github.com/thatdevboyjun) for feedback, suggestions, and critique! Thanks guys!
  - @tterb for his *amazing* https://github.com/tterb/Atomic-Monokai-Pro-syntax
  - The [City lights theme][2] for major inspiration
  - Wimer Hazenberg and his [Monokai Pro theme](https://monokai.pro/), which has heavily influenced the design. You can see traces of Monokai hidden in the theme
