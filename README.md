@@ -9,7 +9,6 @@
  - Make code clear
  - Still look good
 
-
 <sub>*does not prevent 100% blue light from monitor. DO NOT USE AS A REPLACEMENT FOR BLUE LIGHT BLOCKING GLASSES. Coding breaks are still recommended.</sub>
 
 ---
@@ -37,9 +36,11 @@ Enjoy!
 
 ---
 
-This is my first syntax theme 🎉, originally forked from [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1]. In fact, I've even completely rewritten the `_base.less` as an optimization.
+This is my first syntax theme 🎉, originally forked from [Atomic-monokai-pro-syntax][1]. Except now, this looks *nothing* like [atomic-monokai-pro-syntax][1].
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, you can let other people find this theme.
+
+Hey, if you don't like this syntax theme ("it's too reddish!") I *highly recommend* @tterb's [Atomic-monokai-pro-syntax](https://atom.io/themes/) or @jackw01's [summer-night-syntax])(https://atom.io/themes/summer-night-syntax)
 
 > According to GitHub Analytics only a small percentage of you have actually starred, so please star the repository.
  - [@KomodoKode](https://github.com/KomodoKode)
