@@ -1,8 +1,9 @@
 .syntax--less, .syntax--css {
-    &.syntax--variable {
+    &.syntax--entity,&.syntax--variable {
         color: @keyword-color;
+        .syntax--punctuation {color: @mono-2}
     }
-    &.syntax--keyword {
+    &.syntax--keyword.syntax--operator {
         color: @function-color;
     }
     &.syntax--parent-selector {
