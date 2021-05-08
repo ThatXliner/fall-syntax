@@ -14,23 +14,20 @@
   color: @important-color;
 }
 
-.syntax--type,
+.syntax--storage.syntax--type,
 .syntax--operator,
 .syntax--keyword,
 .syntax--modifier {
   color: @keyword-color;
-  &.syntax--exception {
-      color: @arg-color;
-  }
+}
+.syntax--type.syntax--exception {
+    color: @arg-color;
 }
 
 // Class/function definition keywords
 .syntax--class,
 .syntax--function {
     color: @important-color;
-    &.syntax--name, &.syntax--support {
-        color: @function-color;
-    }
     & + .syntax--name, & + .syntax--support {
         color: @function-color !important;
     }
@@ -38,6 +35,8 @@
         color:@mono-1
     }
 }
+
+
 .syntax--parameter,
 .syntax--instance,
 .syntax--self {
@@ -75,8 +74,7 @@
     color: @function-color !important;
 }
 .syntax--entity {
-    color: @keyword-color;
-    &.syntax--name.syntax--type,&.syntax--self {color: @arg-color}  // Class name
+    &.syntax--name.syntax--type.syntax--python {color: @function-color}  // Class name
 }
 
 // Misc

@@ -1,6 +1,12 @@
 .syntax--coffee {
-    &.syntax--object,
-    &.syntax--punctuation.syntax--separator {
+    &.syntax--punctuation.syntax--separator,
+    &.syntax--method + &.syntax--function{
         color: @mono-1;
+    }
+    &.syntax--entity.syntax--name {
+        color:@function-color;
+        &.syntax--object.syntax--type {
+            color:@mono-1
+        }
     }
 }
