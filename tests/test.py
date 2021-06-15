@@ -8,7 +8,7 @@ def hello_world(name: str) -> None:
     print(f"Hello, {name}")
 
 
-class Greeter(object):
+class Greeter(object, e):
     def __init__(self, name: str) -> None:
         self._name = name
 

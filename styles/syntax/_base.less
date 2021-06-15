@@ -1,42 +1,46 @@
-// Generic language syntax highlighting
-
+// // Generic language syntax highlighting
+//
 // Comments
 .syntax--comment {
   color: @mono-3 !important;
   font-style: italic;
-  .syntax--keyword,
-  .syntax--class {
+  .syntax--type,.syntax--codetag { // TODOs, HACKs, etc
       color: @important-color;
   }
 }
 // Links (in comments or strings)
-.syntax--link {
+.syntax--link,.syntax--hyperlink {
   color: @important-color;
 }
-
-.syntax--storage.syntax--type,
+.syntax--storage.syntax--modifier,
+.syntax--type,
 .syntax--operator,
-.syntax--keyword,
-.syntax--modifier {
+.syntax--keyword {
   color: @keyword-color;
 }
-.syntax--type.syntax--exception {
-    color: @arg-color;
-}
 
-// Class/function definition keywords
-.syntax--class,
-.syntax--function {
+// .syntax--type.syntax--exception {
+//     color: @arg-color;
+// }
+//
+// // Class/function definition keywords
+.syntax--class.syntax--storage.syntax--type,
+.syntax--function.syntax--storage.syntax--type {
     color: @important-color;
     & + .syntax--name, & + .syntax--support {
         color: @function-color !important;
     }
-    &.syntax--name,&.syntax--support {
-        color:@mono-1
-    }
 }
 
-
+//     & + .syntax--name, & + .syntax--support {
+//         color: @function-color !important;
+//     }
+//     &.syntax--name,&.syntax--support {
+//         color:@mono-1
+//     }
+// }
+//
+//
 .syntax--parameter,
 .syntax--instance,
 .syntax--self {
@@ -55,35 +59,43 @@
     .syntax--embedded {color: @constant-color;}
 }
 .syntax--begin:not(.syntax--comment),
+.syntax--start:not(.syntax--comment),
 .syntax--end:not(.syntax--comment),
 .syntax--brace,
 .syntax--round,
 .syntax--punctuation.syntax--separator:not(:only-child),
+.syntax--punctuation.syntax--decorator,  // Possibly Python only
+.syntax--punctuation.syntax--tag,  // Possibly HTML only
 .syntax--bracket,
 .syntax--punctuation.syntax--string {
     color: @mono-2 !important;
 }
+
+
 .syntax--punctuation.syntax--separator {
+    // Make periods and colons white.
+    // Open to debate
     &.syntax--colon, &.syntax--period {
         color: @mono-1 !important;
     }
 }
-// Magics, builtins
+
+// // Magics, builtins
 .syntax--builtin,
 .syntax--magic {
-    color: @function-color !important;
+    color: @function-color;
 }
-.syntax--entity {
-    &.syntax--name.syntax--type.syntax--python {color: @function-color}  // Class name
-}
-
-// Misc
-.syntax--decorator {
-    color: @mono-2;
-    .syntax--arguments {
-        color: @mono-1;
-    }
-}
+// .syntax--entity {
+//     &.syntax--name.syntax--type.syntax--python {color: @function-color}  // Class name
+// }
+//
+// // Misc
+// .syntax--decorator {
+//     color: @mono-2;
+//     .syntax--arguments {
+//         color: @mono-1;
+//     }
+// }
 .syntax--invalid {
     color: @syntax-illegal-fg;
     background: @syntax-illegal-bg;
@@ -93,4 +105,7 @@
     }
 }
 
-// .linter-error {color:@syntax-illegal-bg;}
+.syntax--inherited-class {
+    color: @arg-color;
+}
+// // .linter-error {color:@syntax-illegal-bg;}
