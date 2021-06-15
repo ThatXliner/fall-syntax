@@ -1,10 +1,12 @@
 .syntax--coffee {
     &.syntax--punctuation.syntax--separator,
-    &.syntax--method + &.syntax--function{
-        color: @mono-1;
+    &.syntax--method-call {
+        .syntax--function {
+            color: @function-color;
+        }
     }
     &.syntax--entity.syntax--name {
-        color:@function-color;
+        color: @function-color;
         &.syntax--object.syntax--type {
             color:@mono-1
         }
