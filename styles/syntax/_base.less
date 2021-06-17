@@ -23,6 +23,15 @@
 //     color: @arg-color;
 // }
 //
+.syntax--type {
+    &.syntax--metaclass {  // I've figured this is just Python, for now
+        color: @arg-color;
+    }
+}
+.syntax--inherited-class {
+    color: @constant-color;
+}
+
 // // Class/function definition keywords
 .syntax--class.syntax--storage.syntax--type,
 .syntax--function.syntax--storage.syntax--type {
@@ -71,7 +80,7 @@
     color: @mono-2 !important;
 }
 
-
+.syntax--function-call.syntax--arguments {color: @mono-1}
 .syntax--punctuation.syntax--separator {
     // Make periods and colons white.
     // Open to debate
@@ -105,7 +114,4 @@
     }
 }
 
-.syntax--inherited-class {
-    color: @arg-color;
-}
 // // .linter-error {color:@syntax-illegal-bg;}
