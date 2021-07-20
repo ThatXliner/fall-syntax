@@ -1,3 +1,16 @@
 .syntax--shell {
-    .syntax--entity.syntax--name.syntax--function {color: @important-color}
+    &.syntax--entity.syntax--name.syntax--function {color: @important-color}
+    &.syntax--function.syntax--builtin:first-child {color: @function-color}
+    &.syntax--logical-expression.syntax--punctuation.syntax--definition { color: @keyword-color}
+    &.syntax--keyword.syntax--operator.syntax--logical { color: @arg-color}
+    &.syntax--punctuation.syntax--definition {
+        color: @mono-2;
+        &.syntax--variable {color:@constant-color}
+    }
+    &.syntax--bracket {color: unset !important}
+    // &.syntax--variable.syntax--other.syntax--bracket {
+    //     color: @constant-color;
+    // }
+    .syntax--variable {color: @constant-color}
+    // }
 }

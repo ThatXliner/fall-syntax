@@ -1,0 +1,8 @@
+.syntax--js,.syntax--ts,.syntax--js.syntax--embedded {
+    .syntax--entity.syntax--name.syntax--function {color:@function-color}
+    .syntax--modifier {color: @keyword-color}
+    .syntax--entity.syntax--attribute-name {color: @arg-color}
+    .syntax--storage.syntax--type + .syntax--meta.syntax--class {color: @function-color}
+    .syntax--storage.syntax--type:has(+ .syntax--meta.syntax--class) {color: @important-color}
+    // .syntax--storage.syntax--type + .syntax--meta.syntax--class {color: @function-color}
+}
