@@ -1,5 +1,4 @@
 // // Generic language syntax highlighting
-//
 // Comments
 .syntax--comment {
   color: @mono-3 !important;
@@ -12,27 +11,17 @@
 .syntax--link,.syntax--hyperlink {
   color: @important-color;
 }
-.syntax--storage.syntax--modifier,
+// .syntax--storage.syntax--modifier,
 .syntax--type,
 .syntax--operator,
 .syntax--keyword {
   color: @keyword-color;
 }
 
-// .syntax--type.syntax--exception {
-//     color: @arg-color;
-// }
-//
-.syntax--type {
-    &.syntax--metaclass {  // I've figured this is just Python, for now
-        color: @arg-color;
-    }
-}
-.syntax--inherited-class {
-    color: @constant-color;
-}
+.syntax--modifier {color: @keyword-color}
 
-// // Class/function definition keywords
+
+// Class/function definition keywords
 .syntax--class.syntax--storage.syntax--type,
 .syntax--function.syntax--storage.syntax--type {
     color: @important-color;
@@ -40,19 +29,7 @@
         color: @function-color !important;
     }
 }
-.syntax--function.syntax--name.syntax--entity span:only-child {
-    color: @function-color;
-}
 
-//     & + .syntax--name, & + .syntax--support {
-//         color: @function-color !important;
-//     }
-//     &.syntax--name,&.syntax--support {
-//         color:@mono-1
-//     }
-// }
-//
-//
 .syntax--parameter,
 .syntax--instance,
 .syntax--self {
@@ -68,7 +45,9 @@
     &.syntax--type {
         color:  @important-color;
     }
-    .syntax--embedded {color: @constant-color;}
+    .syntax--embedded {
+        color: @constant-color;
+    }
 }
 .syntax--begin:not(.syntax--comment),
 .syntax--start:not(.syntax--comment),
@@ -79,35 +58,14 @@
 .syntax--punctuation.syntax--decorator,  // Possibly Python only
 .syntax--punctuation.syntax--tag,  // Possibly HTML only
 .syntax--bracket,
-.syntax--punctuation.syntax--string {
+.syntax--punctuation.syntax--string,
+.syntax--punctuation.syntax--embedded {
+    // color: @mono-2;
     color: @mono-2 !important;
 }
 
 .syntax--function-call.syntax--arguments {color: @mono-1}
-.syntax--punctuation.syntax--separator {
-    // Make periods and colons white.
-    // Open to debate
-    &.syntax--colon, &.syntax--period {
-        color: @mono-1 !important;
-    }
-}
 
-// // Magics, builtins
-.syntax--builtin,
-.syntax--magic {
-    color: @function-color;
-}
-// .syntax--entity {
-//     &.syntax--name.syntax--type.syntax--python {color: @function-color}  // Class name
-// }
-//
-// // Misc
-// .syntax--decorator {
-//     color: @mono-2;
-//     .syntax--arguments {
-//         color: @mono-1;
-//     }
-// }
 .syntax--invalid {
     color: @syntax-illegal-fg;
     background: @syntax-illegal-bg;
@@ -117,4 +75,7 @@
     }
 }
 
-// // .linter-error {color:@syntax-illegal-bg;}
+// JSX tags, HTML tags, YAML...
+.syntax--entity.syntax--name.syntax--tag {
+    color:@keyword-color
+}

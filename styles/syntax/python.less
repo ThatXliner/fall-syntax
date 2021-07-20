@@ -2,9 +2,9 @@
     &.syntax--unpacking {
         color: @keyword-color;
     }
-    &.syntax--parameters {
-            color: @mono-1;
-    }
+    // &.syntax--parameters {
+    //         color: @mono-1;
+    // }
     &.syntax--console { // Python console
         &.syntax--prompt {
             color: @keyword-color;
@@ -12,5 +12,9 @@
     }
     &.syntax--decorator {
         color: @keyword-color;
+    }
+    &.syntax--builtin,
+    &.syntax--magic {
+        color: @function-color;
     }
 }
