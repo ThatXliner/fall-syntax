@@ -1,7 +1,7 @@
 // // Generic language syntax highlighting
 // Comments
 .syntax--comment {
-  color: @mono-3 !important;
+  color: @mono-3;
   font-style: italic;
   .syntax--type,.syntax--codetag { // TODOs, HACKs, etc
       color: @important-color;
@@ -26,7 +26,7 @@
 .syntax--function.syntax--storage.syntax--type {
     color: @important-color;
     & + .syntax--name, & + .syntax--support {
-        color: @function-color !important;
+        color: @function-color;
     }
 }
 
@@ -61,7 +61,7 @@
 .syntax--punctuation.syntax--string,
 .syntax--punctuation.syntax--embedded {
     // color: @mono-2;
-    color: @mono-2 !important;
+    color: @mono-2;
 }
 
 .syntax--function-call.syntax--arguments {color: @mono-1}

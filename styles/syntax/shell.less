@@ -3,7 +3,7 @@
     &.syntax--function.syntax--builtin:first-child {color: @function-color}
     &.syntax--logical-expression.syntax--punctuation.syntax--definition { color: @keyword-color}
     &.syntax--keyword.syntax--operator.syntax--logical { color: @arg-color}
-    &.syntax--punctuation.syntax--definition {
+    &.syntax--punctuation.syntax--definition:not(.syntax--comment) {
         color: @mono-2;
         &.syntax--variable {color:@constant-color}
     }
