@@ -1,3 +1,20 @@
-atom-text-editor[data-grammar="source rust"] > div.line > .syntax--entity.syntax--name.syntax--function {
-    color: @function-color;
+.syntax--rust {
+    .syntax--function,
+    .syntax--structure,
+    .syntax--enumeration,
+    .syntax--trait,
+    .syntax--implementation {
+        .syntax--storage:first-child {
+            color: @important-color;
+        }
+        .syntax--name {
+            color: @function-color;
+        }
+    }
+    .syntax--macro.syntax--support {
+        color: @function-color;
+    }
+    .syntax--primitive.syntax--support.syntax--type {
+        color: @mono-1;
+    }
 }
