@@ -40,10 +40,8 @@ This is my first syntax theme 🎉, originally forked from [Atomic-monokai-pro-s
 
 I hope you like it! ❤️. If you do, **please star this repo and star this theme on Atom**. That way, you can let other people find this theme.
 
-Hey, if you don't like this syntax theme ("it's too reddish!") I *highly recommend* @tterb's [Atomic-monokai-pro-syntax](https://atom.io/themes/) or @jackw01's [summer-night-syntax](https://atom.io/themes/summer-night-syntax). @KomodoKode's personal favorite (how dare he not use Fall Syntax) is Atom's built-in One Dark.
+Hey, if you don't like this syntax theme ("it's too reddish!") I *highly recommend* @tterb's [Atomic-monokai-pro-syntax][1] or @jackw01's [summer-night-syntax](https://atom.io/themes/summer-night-syntax). @KomodoKode's personal favorite (how dare he not use Fall Syntax) is Atom's built-in One Dark.
 
-> According to GitHub Analytics only a small percentage of you have actually starred, so please star the repository.
- \- [@KomodoKode](https://github.com/KomodoKode)
 ## Installation
 
 This theme can be installed from within Atom or via the command:
