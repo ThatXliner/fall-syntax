@@ -10,9 +10,6 @@
             color: @keyword-color;
         }
     }
-    &.syntax--decorator {
-        color: @keyword-color;
-    }
     &.syntax--builtin,
     &.syntax--magic {
         color: @function-color;
@@ -26,6 +23,6 @@
     }
 
     // Tree sitters
-    .syntax--entity.syntax--name.syntax--function.syntax--decorator {color: @keyword-color}
+    // .syntax--entity.syntax--name.syntax--function.syntax--decorator {color: @function-color}
     .syntax--support.syntax--function {color: @function-color;}
 }
