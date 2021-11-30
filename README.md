@@ -54,7 +54,11 @@ After installation, you can activated by going to the **Settings > Themes** sect
 
 Q: **I need this for other editors**
 
-A: I'm glad you like this but I really don't know how to port this to other editors other than Atom. While I can use [this awesome tool][tool], the generated syntax highlighting may be degraded and doesn't meet the quality standards I boast for. That is, unless it does. Then open an issue about telling me about the ports!
+A: Current ports:
+
+ - [Fall Syntax for VSCode](https://github.com/ThatXliner/fall-syntax-vscode)
+
+If you have made a port, please send a pull request updating this list.
 
 Q: **This syntax highlighting is degraded**
 
