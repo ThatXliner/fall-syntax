@@ -57,6 +57,7 @@ Q: **I need this for other editors**
 A: Current ports:
 
  - [Fall Syntax for VSCode](https://github.com/ThatXliner/fall-syntax-vscode)
+ - [Fall Syntax for Sublime text](https://github.com/imnotril/fall-syntax-sublime-text)
 
 If you have made a port, please send a pull request updating this list.
 
