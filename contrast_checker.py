@@ -35,7 +35,7 @@ def convert_hex_to_rgb(hex_str: str) -> Tuple[int, int, int]:
 assert convert_hex_to_rgb("112A46") == (17, 42, 70)
 
 
-TARGET_RATIO = 6
+TARGET_RATIO = 7
 assert round(get_contrast_ratio((17, 42, 70), (172, 200, 229)), 2) == 8.42
 
 COLOR_RE = re.compile(
