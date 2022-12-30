@@ -1,4 +1,4 @@
-NOTE: Although Atom has been sunset, I will be maintaining this theme. I plan to publish to [Pulsar](https://pulsar-edit.dev/)'s (a community-driven effort to continue Atom) package repository
+NOTE: Although Atom has been sunset, I will be maintaining this theme. I plan to publish to [Pulsar](https://pulsar-edit.dev/)'s (a community-driven effort to continue Atom) [package repository](https://web.pulsar-edit.dev/)
 
 # fall-syntax
 ![Color Contrast Check](https://github.com/ThatXliner/fall-syntax/workflows/Color%20Contrast%20Check/badge.svg) [![APM](https://img.shields.io/apm/dm/fall-syntax)](https://atom.io/themes/fall-syntax) [![APM](https://img.shields.io/apm/l/fall-syntax)](https://atom.io/themes/fall-syntax) [![Built with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)](https://atom.io/)
@@ -11,7 +11,7 @@ NOTE: Although Atom has been sunset, I will be maintaining this theme. I plan to
  - Make code clear
  - Still look good
 
-<sub>*does not prevent 100% blue light from monitor. DO NOT USE AS A REPLACEMENT FOR BLUE LIGHT BLOCKING GLASSES. Coding breaks are still recommended.</sub>
+<sub>*Not scientifically proven. I try doing this by reducing the use of the color blue within the theme. Coding breaks are still recommended.</sub>
 
 ---
 
