@@ -1,3 +1,5 @@
+NOTE: Although Atom has been sunset, I will be maintaining this theme. I plan to publish to [Pulsar](https://pulsar-edit.dev/)'s (a community-driven effort to continue Atom) package repository
+
 # fall-syntax
 ![Color Contrast Check](https://github.com/ThatXliner/fall-syntax/workflows/Color%20Contrast%20Check/badge.svg) [![APM](https://img.shields.io/apm/dm/fall-syntax)](https://atom.io/themes/fall-syntax) [![APM](https://img.shields.io/apm/l/fall-syntax)](https://atom.io/themes/fall-syntax) [![Built with Atom](https://img.shields.io/badge/Built%20with-Atom-brightgreen?logo=atom)](https://atom.io/)
 
@@ -56,8 +58,8 @@ Q: **I need this for other editors**
 
 A: Current ports:
 
- - [Fall Syntax for VSCode](https://github.com/ThatXliner/fall-syntax-vscode)
- - [Fall Syntax for Sublime text](https://github.com/imnotril/fall-syntax-sublime-text)
+ - [Fall Syntax for VSCode](https://github.com/ThatXliner/fall-syntax-vscode) (Unfinished)
+ - [Fall Syntax for Sublime text](https://github.com/imnotril/fall-syntax-sublime-text) (note: this is a 3rd-party contribution)
 
 If you have made a port, please send a pull request updating this list.
 
@@ -90,7 +92,7 @@ Credits to
  - My ***epic*** friends [@KomodoKode](https://github.com/KomodoKode) and [@thatdevboyjun](https://github.com/thatdevboyjun) for feedback, suggestions, and critique! Thanks guys!
  - @tterb for his *amazing* https://github.com/tterb/Atomic-Monokai-Pro-syntax
  - The [City lights theme][2] for major inspiration
- - Wimer Hazenberg and his [Monokai Pro theme](https://monokai.pro/), which has heavily influenced the design. You can see traces of Monokai hidden in the theme
+ - Wimer Hazenberg and his [Monokai Pro theme](https://monokai.pro/), which has heavily influenced the design. You can still see traces of Monokai hidden in the theme
  - [Coolors.co](https://coolors.co/) for the *epic* palette generator (and color editor)
 
 [1]: https://github.com/tterb/Atomic-Monokai-Pro-syntax
