@@ -52,6 +52,22 @@ $ apm install fall-syntax
 ```
 After installation, you can activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.
 
+## Color palette
+
+| Color        | Preview                                        | Hex       |
+|--------------|------------------------------------------------|-----------|
+| Pink         | ![](https://readme-swatches.vercel.app/FF7092) | `#FF7092` |
+| Orange       | ![](https://readme-swatches.vercel.app/F99270) | `#F99270` |
+| Light Orange | ![](https://readme-swatches.vercel.app/FFB370) | `#FFB370` |
+| Peach        | ![](https://readme-swatches.vercel.app/F9C19A) | `#F9C19A` |
+| Green        | ![](https://readme-swatches.vercel.app/7EC892) | `#7EC892` |
+| Purple       | ![](https://readme-swatches.vercel.app/D6ABEE) | `#D6ABEE` |
+| Maroon       | ![](https://readme-swatches.vercel.app/C65882) | `#C65882` |
+| Foreground   | ![](https://readme-swatches.vercel.app/E3DEDF) | `#E3DEDF` |
+| Punctuation  | ![](https://readme-swatches.vercel.app/A29094) | `#A29094` |
+| Background   | ![](https://readme-swatches.vercel.app/262022) | `#262022` |
+
+
 ## FAQ
 
 Q: **I need this for other editors**
