@@ -11,7 +11,7 @@ NOTE: Although Atom has been sunset, I will be maintaining this theme. I plan to
  - Make code clear
  - Still look good
 
-<sub>*Not scientifically proven. I try doing this by reducing the use of the color blue within the theme. Coding breaks are still recommended.</sub>
+<sub>*Not clinically proven. Coding breaks are still recommended.</sub>
 
 ---
 
@@ -29,7 +29,7 @@ Naturally, the colors are reddish and aesthetic, giving that **post-summer vibe*
 Besides warm colors, *Fall Syntax* features some nice **perks** such as
 
  - Trivial components of code (like comments and bracket pairs) are **faded**
- - Specialized **RegEx syntax support**
+ - Consistent color semantics across languages (e.g. you will find definitions of classes or functions as a green keyword followed by a purple name)
  - **Increased contrast** on function/class definitions\*
 
 Enjoy!
